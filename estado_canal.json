@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-10-26T21:52:26Z",
+  "actualizado_utc": "2026-10-26T22:41:13Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -49,7 +49,7 @@
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
-      "valor": "Búhos en 2 h (27/10)",
+      "valor": "Búhos en 1 h (27/10)",
       "detalle": "5 estreno(s) programado(s) hasta el 27/11 (31 días de colchón) y 1 en reserva sin fecha.",
       "estado": "ok"
     },
@@ -79,6 +79,13 @@
       "titulo": "Prueba: enlace a la lista en la descripción",
       "valor": null,
       "detalle": "Desde el 26-oct cada vídeo nuevo abre su descripción con un enlace a la lista de nanas seguidas (los 5 estrenos programados ya lo llevan). Línea base: 193 vistas por listas en 90 días (3 %). Se mide en «Retención por fuente»; ojo, en vídeos para niños el enlace puede no ser pulsable.",
+      "estado": "en_curso"
+    },
+    {
+      "id": "titulos",
+      "titulo": "Prueba: títulos nuevos para búsqueda",
+      "valor": null,
+      "detalle": "Desde el 26-oct los títulos abren con «Música para Dormir Bebés» (y «Canciones de Cuna» en los cortos), sin «Canción Relajante» ni el nombre del canal; en español, portugués e inglés. Los 6 vídeos pendientes ya los llevan; los públicos no se han tocado. Se mide en la fuente «Búsqueda de YouTube» (línea base: 1.012 vistas y 110 s por visita en 90 días).",
       "estado": "en_curso"
     },
     {
