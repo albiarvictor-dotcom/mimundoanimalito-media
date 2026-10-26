@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-10-26T02:31:59Z",
+  "actualizado_utc": "2026-10-26T14:23:02Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -26,32 +26,32 @@
       "estreno_utc": "2026-10-27T00:00:00Z"
     },
     {
-      "animal": "Cerditos",
-      "estado": "esperando_aprobacion",
-      "duracion_min": 3,
-      "semana": "Sem44",
-      "estreno_utc": null
-    },
-    {
       "animal": "Gatitos",
-      "estado": "esperando_aprobacion",
+      "estado": "programado",
       "duracion_min": 4,
       "semana": "Sem44",
-      "estreno_utc": null
+      "estreno_utc": "2026-10-30T00:00:00Z"
+    },
+    {
+      "animal": "Cerditos",
+      "estado": "programado",
+      "duracion_min": 3,
+      "semana": "Sem44",
+      "estreno_utc": "2026-11-06T00:00:00Z"
     },
     {
       "animal": "Ovejitas",
-      "estado": "esperando_aprobacion",
+      "estado": "programado",
       "duracion_min": 3,
       "semana": "Sem44",
-      "estreno_utc": null
+      "estreno_utc": "2026-11-13T00:00:00Z"
     },
     {
       "animal": "Patitos",
-      "estado": "esperando_aprobacion",
+      "estado": "programado",
       "duracion_min": 3,
       "semana": "Sem44",
-      "estreno_utc": null
+      "estreno_utc": "2026-11-20T00:00:00Z"
     },
     {
       "animal": "Koalas",
@@ -145,10 +145,5 @@
     ],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
-  "avisos": [
-    {
-      "nivel": "info",
-      "texto": "4 vídeo(s) privado(s) esperando tu aprobación: Cerditos, Gatitos, Ovejitas, Patitos."
-    }
-  ]
+  "avisos": []
 }
