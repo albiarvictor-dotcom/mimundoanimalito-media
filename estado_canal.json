@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-10-26T21:25:23Z",
+  "actualizado_utc": "2026-10-26T21:52:26Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -23,7 +23,7 @@
       },
       {
         "titulo": "Lo que dicen los datos",
-        "texto": "Los vídeos de más de 15 min dan 65 h cada uno frente a 12,6 h los de hasta 5 min, y 78 s por visita frente a 33 s. Los de 4 min de agosto a octubre retienen solo el 11-23 %; los Gatitos de enero y febrero llegaron al 84-92 %. Casi todo el tráfico llega por vídeos recomendados, y YouTube nos pone junto a canciones cantadas."
+        "texto": "Los vídeos de más de 15 min dan 65 h cada uno frente a 12,6 h los de hasta 5 min, y 78 s por visita frente a 33 s. Los de 4 min de agosto a octubre retienen solo el 11-23 %; los Gatitos de enero y febrero llegaron al 84-92 %. La retención depende de por dónde llega el público: el 74 % de las vistas vienen de recomendados y ven 41 s; la búsqueda da 110 s y las listas de reproducción 328 s. La televisión retiene el doble que el móvil (92 s frente a 48 s). YouTube nos recomienda junto a canciones cantadas."
       },
       {
         "titulo": "Qué hay que tratar",
@@ -66,6 +66,20 @@
       "valor": null,
       "detalle": "El 45-62 % del público se va antes del segundo 20. Los vídeos nuevos abren con un primer plano; se mide en cada estreno.",
       "estado": "atencion"
+    },
+    {
+      "id": "fuentes",
+      "titulo": "Retención por fuente de tráfico",
+      "valor": null,
+      "detalle": "Recomendados 41 s por visita (74 % de las vistas), búsqueda 110 s, listas 328 s. Más entradas por listas y búsqueda suben los minutos más que cualquier cambio dentro del vídeo.",
+      "estado": "atencion"
+    },
+    {
+      "id": "enlace_lista",
+      "titulo": "Prueba: enlace a la lista en la descripción",
+      "valor": null,
+      "detalle": "Desde el 26-oct cada vídeo nuevo abre su descripción con un enlace a la lista de nanas seguidas (los 5 estrenos programados ya lo llevan). Línea base: 193 vistas por listas en 90 días (3 %). Se mide en «Retención por fuente»; ojo, en vídeos para niños el enlace puede no ser pulsable.",
+      "estado": "en_curso"
     },
     {
       "id": "canciones",
@@ -190,6 +204,88 @@
         "horas": 391.9,
         "seg_por_vista": 78,
         "horas_por_video": 65.3
+      }
+    ],
+    "por_fuente_90d": [
+      {
+        "nombre": "Recomendados",
+        "vistas": 5635,
+        "horas": 64.7,
+        "seg_por_vista": 41
+      },
+      {
+        "nombre": "Búsqueda de YouTube",
+        "vistas": 1012,
+        "horas": 29.4,
+        "seg_por_vista": 110
+      },
+      {
+        "nombre": "Listas de reproducción",
+        "vistas": 193,
+        "horas": 17.3,
+        "seg_por_vista": 328
+      },
+      {
+        "nombre": "Otras páginas de YouTube",
+        "vistas": 223,
+        "horas": 3.7,
+        "seg_por_vista": 60
+      },
+      {
+        "nombre": "Página del canal",
+        "vistas": 136,
+        "horas": 2.4,
+        "seg_por_vista": 67
+      },
+      {
+        "nombre": "Suscriptores",
+        "vistas": 269,
+        "horas": 2.2,
+        "seg_por_vista": 30
+      },
+      {
+        "nombre": "Sin enlace",
+        "vistas": 73,
+        "horas": 1.1,
+        "seg_por_vista": 52
+      },
+      {
+        "nombre": "Enlaces externos",
+        "vistas": 42,
+        "horas": 0.8,
+        "seg_por_vista": 65
+      },
+      {
+        "nombre": "Shorts",
+        "vistas": 51,
+        "horas": 0.0,
+        "seg_por_vista": 12
+      }
+    ],
+    "por_dispositivo_365d": [
+      {
+        "nombre": "Móvil",
+        "vistas": 71448,
+        "horas": 866.4,
+        "seg_por_vista": 48
+      },
+      {
+        "nombre": "Televisión",
+        "vistas": 42780,
+        "horas": 190.2,
+        "seg_por_vista": 92
+      },
+      {
+        "nombre": "Ordenador",
+        "vistas": 1219,
+        "horas": 21.3,
+        "seg_por_vista": 106
+      },
+      {
+        "nombre": "Tableta",
+        "vistas": 2041,
+        "horas": 15.9,
+        "seg_por_vista": 38
       }
     ],
     "top_videos": [
@@ -375,15 +471,6 @@
       "estreno_utc": "2026-10-08T19:59:16Z",
       "video_id": "OvHBTLsSucs",
       "url": "https://www.youtube.com/watch?v=OvHBTLsSucs"
-    },
-    {
-      "animal": "Gatitos",
-      "estado": "publicado",
-      "duracion_min": 4,
-      "semana": "Sem40",
-      "estreno_utc": "2026-10-05T21:48:20Z",
-      "video_id": "ZDtnns3E5Rg",
-      "url": "https://www.youtube.com/watch?v=ZDtnns3E5Rg"
     }
   ],
   "ultimo_video": {
