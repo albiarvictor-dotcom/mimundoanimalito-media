@@ -1,10 +1,290 @@
 {
-  "actualizado_utc": "2026-10-26T14:27:00Z",
+  "actualizado_utc": "2026-10-26T21:25:23Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
     "hora_local": 18,
     "zona": "America/Mexico_City"
+  },
+  "punto_de_partida": {
+    "actualizado": "2026-10-26",
+    "puntos": [
+      {
+        "titulo": "Qué hemos cambiado",
+        "texto": "Quitamos los textos del vídeo; montamos 4 vídeos de reserva sin gastar créditos con clips sobrantes de Sjinn (Gatitos largo, Cerditos, Ovejitas y Patitos); fijamos un estreno por semana, el jueves a las 18:00 de México (la hora la fija el análisis de audiencia); pausamos el cron de producción; los reels se preparan desde el PC y salen el día del estreno; y creamos la pestaña Canal de esta app con la medición diaria de horas."
+      },
+      {
+        "titulo": "Dónde estamos",
+        "texto": "1.093,8 h en 12 meses (27 % del objetivo), concentradas de enero a junio; desde julio solo 11-54 h al mes. Ritmo actual: 548 h al año, 7,3 veces menos de lo necesario. Hay 5 estrenos programados hasta el 27-nov y la producción está parada porque la reserva cubre ese tramo."
+      },
+      {
+        "titulo": "Qué queremos",
+        "texto": "Llegar a 4.000 horas de visualización en 12 meses (unas 333 h al mes). Las horas salen de las vistas por los segundos vistos por vista: hoy cada visita dura 64 s, así que hay que subir las dos cosas, vistas (que nos recomiende YouTube) y duración de cada visita (vídeos largos y que no se vayan en los primeros 20 s)."
+      },
+      {
+        "titulo": "Lo que dicen los datos",
+        "texto": "Los vídeos de más de 15 min dan 65 h cada uno frente a 12,6 h los de hasta 5 min, y 78 s por visita frente a 33 s. Los de 4 min de agosto a octubre retienen solo el 11-23 %; los Gatitos de enero y febrero llegaron al 84-92 %. Casi todo el tráfico llega por vídeos recomendados, y YouTube nos pone junto a canciones cantadas."
+      },
+      {
+        "titulo": "Qué hay que tratar",
+        "texto": "1) Leer el Búhos de 10 min a los 7 días (3-nov) y decidir el formato. 2) El arranque: la mitad del público se va antes del segundo 20. 3) Canal de Canciones: autorizarlo y decidir la voz. 4) Aclarar si la nana es de IA (casilla de Studio). 5) Decidir si pasamos a vídeos largos pagados (plan Pro) antes de que se acabe la reserva."
+      }
+    ]
+  },
+  "seguimiento": [
+    {
+      "id": "horas",
+      "titulo": "Horas de visualización (12 meses)",
+      "valor": "1.094,2 de 4.000 h (27,4 %)",
+      "detalle": "Últimas 4 semanas: 42,5 h. Hacen falta unas 333 h al mes.",
+      "estado": "atencion"
+    },
+    {
+      "id": "seg_por_vista",
+      "titulo": "Segundos vistos por visita (4 semanas)",
+      "valor": "64 s",
+      "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 33 s.",
+      "estado": "atencion"
+    },
+    {
+      "id": "estrenos",
+      "titulo": "Próximo estreno y colchón",
+      "valor": "Búhos en 2 h (27/10)",
+      "detalle": "5 estreno(s) programado(s) hasta el 27/11 (31 días de colchón) y 1 en reserva sin fecha.",
+      "estado": "ok"
+    },
+    {
+      "id": "test_largo",
+      "titulo": "Prueba del formato largo: Búhos 10 min",
+      "valor": "Se estrena el 27/10",
+      "detalle": "Se lee el 3/11. A los 7 días: al menos 300 vistas por recomendados y más del 55 % de retención a los 20 s para hacer 3 vídeos largos más.",
+      "estado": "pendiente"
+    },
+    {
+      "id": "arranque",
+      "titulo": "Retención en los primeros 20 s",
+      "valor": null,
+      "detalle": "El 45-62 % del público se va antes del segundo 20. Los vídeos nuevos abren con un primer plano; se mide en cada estreno.",
+      "estado": "atencion"
+    },
+    {
+      "id": "canciones",
+      "titulo": "Canal de Canciones",
+      "valor": null,
+      "detalle": "Falta autorizarlo en un PC y decidir la voz (humana o IA). Los clips despiertos descartados ya están catalogados para él.",
+      "estado": "pendiente"
+    },
+    {
+      "id": "nana_ia",
+      "titulo": "Origen de la nana (casilla «Uso de IA»)",
+      "valor": null,
+      "detalle": "No consta de dónde sale. Si es de IA, hay que marcar Sí en la opción de música y confirmar la licencia.",
+      "estado": "pendiente"
+    },
+    {
+      "id": "creditos",
+      "titulo": "Plan de créditos para vídeos largos",
+      "valor": null,
+      "detalle": "Decidir tras leer el Búhos (3-nov). Un largo semanal de 25 clips cuesta unos 11.000 créditos (7-8 €) y pediría el plan Pro.",
+      "estado": "pendiente"
+    },
+    {
+      "id": "produccion",
+      "titulo": "Producción automática",
+      "valor": null,
+      "detalle": "Pausada. Reactivarla hacia el 20-nov para que el calendario no se quede sin vídeos tras el 27-nov.",
+      "estado": "atencion"
+    },
+    {
+      "id": "material",
+      "titulo": "Material sobrante de Sjinn",
+      "valor": null,
+      "detalle": "Quedan clips de Búhos y de Gatitos (mañana soleada y mamá gris) para 2-3 vídeos más sin gastar créditos.",
+      "estado": "ok"
+    }
+  ],
+  "horas": {
+    "objetivo_h": 4000,
+    "horas_365d": 1094.2,
+    "pct_objetivo": 27.4,
+    "faltan_h": 2905.8,
+    "horas_28d": 42.5,
+    "horas_7d": 4.3,
+    "ritmo_anual_h": 553,
+    "veces_hasta_objetivo": 7.2,
+    "horas_mes_necesarias": 333,
+    "seg_por_vista_28d": 64,
+    "meses": [
+      {
+        "mes": "2026-01",
+        "vistas": 19362,
+        "horas": 178.8
+      },
+      {
+        "mes": "2026-02",
+        "vistas": 60444,
+        "horas": 260.6
+      },
+      {
+        "mes": "2026-03",
+        "vistas": 9913,
+        "horas": 96.9
+      },
+      {
+        "mes": "2026-04",
+        "vistas": 6281,
+        "horas": 137.8
+      },
+      {
+        "mes": "2026-05",
+        "vistas": 295,
+        "horas": 7.9
+      },
+      {
+        "mes": "2026-06",
+        "vistas": 13193,
+        "horas": 277.8
+      },
+      {
+        "mes": "2026-07",
+        "vistas": 426,
+        "horas": 11.2
+      },
+      {
+        "mes": "2026-08",
+        "vistas": 1411,
+        "horas": 26.4
+      },
+      {
+        "mes": "2026-09",
+        "vistas": 3898,
+        "horas": 54.0
+      },
+      {
+        "mes": "2026-10",
+        "vistas": 2324,
+        "horas": 40.2
+      }
+    ],
+    "por_formato": [
+      {
+        "formato": "hasta 5 min",
+        "videos": 38,
+        "vistas": 51507,
+        "horas": 479.0,
+        "seg_por_vista": 33,
+        "horas_por_video": 12.6
+      },
+      {
+        "formato": "de 6 a 15 min",
+        "videos": 6,
+        "vistas": 47415,
+        "horas": 221.7,
+        "seg_por_vista": 17,
+        "horas_por_video": 36.9
+      },
+      {
+        "formato": "más de 15 min",
+        "videos": 6,
+        "vistas": 18190,
+        "horas": 391.9,
+        "seg_por_vista": 78,
+        "horas_por_video": 65.3
+      }
+    ],
+    "top_videos": [
+      {
+        "titulo": "🐻 Ositos Durmiendo 😴 | Canción Relajante para Dormir Bebés - Ruido Blanco | Mi Mundo Animalito",
+        "publicado": "2026-03-16",
+        "duracion_s": 1216,
+        "vistas": 17413,
+        "minutos": 22138,
+        "horas": 369.0,
+        "seg_por_vista": 76
+      },
+      {
+        "titulo": "🐱 Gatitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
+        "publicado": "2026-01-09",
+        "duracion_s": 246,
+        "vistas": 23307,
+        "minutos": 13966,
+        "horas": 232.8,
+        "seg_por_vista": 40
+      },
+      {
+        "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal (10 min) 😴 | Ruido Blanco y Música Relajante para Bebés",
+        "publicado": "2026-02-05",
+        "duracion_s": 585,
+        "vistas": 46042,
+        "minutos": 10143,
+        "horas": 169.1,
+        "seg_por_vista": 53
+      },
+      {
+        "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal 💤| Música Relajante para Dormir Bebés | Mi Mundo Animalito",
+        "publicado": "2026-01-21",
+        "duracion_s": 241,
+        "vistas": 7536,
+        "minutos": 4267,
+        "horas": 71.1,
+        "seg_por_vista": 37
+      },
+      {
+        "titulo": "🐰 Conejitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
+        "publicado": "2026-01-05",
+        "duracion_s": 229,
+        "vistas": 2645,
+        "minutos": 2340,
+        "horas": 39.0,
+        "seg_por_vista": 59
+      },
+      {
+        "titulo": "🐨 Koalas Familia ❤️ ESPECIAL SAN VALENTÍN 4MIN 😴 | Mi Mundo Animalito",
+        "publicado": "2026-02-14",
+        "duracion_s": 241,
+        "vistas": 4629,
+        "minutos": 2006,
+        "horas": 33.4,
+        "seg_por_vista": 26
+      },
+      {
+        "titulo": "🦌 Ciervitos Durmiendo 12 min | Música para Dormir Bebés | Mi Mundo Animalito 🌙",
+        "publicado": "2026-06-16",
+        "duracion_s": 712,
+        "vistas": 772,
+        "minutos": 1333,
+        "horas": 22.2,
+        "seg_por_vista": 103
+      },
+      {
+        "titulo": "🐱 Gatitos Durmiendo 😴 | 10 min Ruido Blanco Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
+        "publicado": "2026-02-25",
+        "duracion_s": 613,
+        "vistas": 159,
+        "minutos": 961,
+        "horas": 16.0,
+        "seg_por_vista": 362
+      },
+      {
+        "titulo": "🐨 Koalas Durmiendo 20 min 😴 | Música Relajante para Dormir Bebés | Mi Mundo Animalito 🌙",
+        "publicado": "2026-06-21",
+        "duracion_s": 1148,
+        "vistas": 552,
+        "minutos": 893,
+        "horas": 14.9,
+        "seg_por_vista": 97
+      },
+      {
+        "titulo": "🐮 Vaquitas Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
+        "publicado": "2026-10-08",
+        "duracion_s": 241,
+        "vistas": 1151,
+        "minutos": 797,
+        "horas": 13.3,
+        "seg_por_vista": 41
+      }
+    ],
+    "nota": "Horas reales de YouTube Analytics. Ojo: el total de 12 meses es una ventana móvil, así que los meses buenos del principio del año irán saliendo de la cuenta."
   },
   "proximo_estreno": {
     "animal": "Buhos",
@@ -28,30 +308,37 @@
     {
       "animal": "Gatitos",
       "estado": "programado",
-      "duracion_min": 4,
+      "duracion_min": 9,
       "semana": "Sem44",
-      "estreno_utc": "2026-10-30T00:00:00Z"
+      "estreno_utc": "2026-11-06T00:00:00Z"
     },
     {
       "animal": "Cerditos",
       "estado": "programado",
       "duracion_min": 3,
       "semana": "Sem44",
-      "estreno_utc": "2026-11-06T00:00:00Z"
+      "estreno_utc": "2026-11-13T00:00:00Z"
     },
     {
       "animal": "Ovejitas",
       "estado": "programado",
       "duracion_min": 3,
       "semana": "Sem44",
-      "estreno_utc": "2026-11-13T00:00:00Z"
+      "estreno_utc": "2026-11-20T00:00:00Z"
     },
     {
       "animal": "Patitos",
       "estado": "programado",
       "duracion_min": 3,
       "semana": "Sem44",
-      "estreno_utc": "2026-11-20T00:00:00Z"
+      "estreno_utc": "2026-11-27T00:00:00Z"
+    },
+    {
+      "animal": "Gatitos",
+      "estado": "esperando_aprobacion",
+      "duracion_min": 4,
+      "semana": "Sem44",
+      "estreno_utc": null
     },
     {
       "animal": "Koalas",
@@ -141,9 +428,18 @@
       {
         "dia": "2026-10-23",
         "vistas": 0
+      },
+      {
+        "dia": "2026-10-24",
+        "vistas": 0
       }
     ],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
-  "avisos": []
+  "avisos": [
+    {
+      "nivel": "info",
+      "texto": "1 vídeo(s) privado(s) esperando tu aprobación: Gatitos."
+    }
+  ]
 }
