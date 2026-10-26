@@ -1,0 +1,154 @@
+{
+  "actualizado_utc": "2026-10-26T02:31:59Z",
+  "datos_youtube": true,
+  "franja_estreno": {
+    "dia": "jueves",
+    "hora_local": 18,
+    "zona": "America/Mexico_City"
+  },
+  "proximo_estreno": {
+    "animal": "Buhos",
+    "estado": "programado",
+    "duracion_min": 10,
+    "semana": "Sem43",
+    "estreno_utc": "2026-10-27T00:00:00Z"
+  },
+  "animal_que_toca": {
+    "animal": "Ardillas",
+    "ultimo_estreno": "2026-10-08"
+  },
+  "calendario": [
+    {
+      "animal": "Buhos",
+      "estado": "programado",
+      "duracion_min": 10,
+      "semana": "Sem43",
+      "estreno_utc": "2026-10-27T00:00:00Z"
+    },
+    {
+      "animal": "Cerditos",
+      "estado": "esperando_aprobacion",
+      "duracion_min": 3,
+      "semana": "Sem44",
+      "estreno_utc": null
+    },
+    {
+      "animal": "Gatitos",
+      "estado": "esperando_aprobacion",
+      "duracion_min": 4,
+      "semana": "Sem44",
+      "estreno_utc": null
+    },
+    {
+      "animal": "Ovejitas",
+      "estado": "esperando_aprobacion",
+      "duracion_min": 3,
+      "semana": "Sem44",
+      "estreno_utc": null
+    },
+    {
+      "animal": "Patitos",
+      "estado": "esperando_aprobacion",
+      "duracion_min": 3,
+      "semana": "Sem44",
+      "estreno_utc": null
+    },
+    {
+      "animal": "Koalas",
+      "estado": "publicado",
+      "duracion_min": 4,
+      "semana": "Sem42",
+      "estreno_utc": "2026-10-15T18:57:15Z",
+      "video_id": "KQo8Cv2ROMM",
+      "url": "https://www.youtube.com/watch?v=KQo8Cv2ROMM"
+    },
+    {
+      "animal": "Ovejitas",
+      "estado": "publicado",
+      "duracion_min": 4,
+      "semana": "Sem41",
+      "estreno_utc": "2026-10-12T22:21:25Z",
+      "video_id": "YJ05Z8NMT44",
+      "url": "https://www.youtube.com/watch?v=YJ05Z8NMT44"
+    },
+    {
+      "animal": "Vaquitas",
+      "estado": "publicado",
+      "duracion_min": 4,
+      "semana": "Sem41",
+      "estreno_utc": "2026-10-08T20:35:44Z",
+      "video_id": "ma35tKnfHX8",
+      "url": "https://www.youtube.com/watch?v=ma35tKnfHX8"
+    },
+    {
+      "animal": "Ardillas",
+      "estado": "publicado",
+      "duracion_min": 4,
+      "semana": "Sem41",
+      "estreno_utc": "2026-10-08T19:59:16Z",
+      "video_id": "OvHBTLsSucs",
+      "url": "https://www.youtube.com/watch?v=OvHBTLsSucs"
+    },
+    {
+      "animal": "Gatitos",
+      "estado": "publicado",
+      "duracion_min": 4,
+      "semana": "Sem40",
+      "estreno_utc": "2026-10-05T21:48:20Z",
+      "video_id": "ZDtnns3E5Rg",
+      "url": "https://www.youtube.com/watch?v=ZDtnns3E5Rg"
+    }
+  ],
+  "ultimo_video": {
+    "video_id": "KQo8Cv2ROMM",
+    "titulo": "🐨 Koalas Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
+    "publicado": "2026-10-15T18:57:15Z",
+    "url": "https://www.youtube.com/watch?v=KQo8Cv2ROMM",
+    "visitas_totales": 621,
+    "visitas_diarias": [
+      {
+        "dia": "2026-10-15",
+        "vistas": 484
+      },
+      {
+        "dia": "2026-10-16",
+        "vistas": 35
+      },
+      {
+        "dia": "2026-10-17",
+        "vistas": 56
+      },
+      {
+        "dia": "2026-10-18",
+        "vistas": 35
+      },
+      {
+        "dia": "2026-10-19",
+        "vistas": 10
+      },
+      {
+        "dia": "2026-10-20",
+        "vistas": 0
+      },
+      {
+        "dia": "2026-10-21",
+        "vistas": 0
+      },
+      {
+        "dia": "2026-10-22",
+        "vistas": 1
+      },
+      {
+        "dia": "2026-10-23",
+        "vistas": 0
+      }
+    ],
+    "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
+  },
+  "avisos": [
+    {
+      "nivel": "info",
+      "texto": "4 vídeo(s) privado(s) esperando tu aprobación: Cerditos, Gatitos, Ovejitas, Patitos."
+    }
+  ]
+}
