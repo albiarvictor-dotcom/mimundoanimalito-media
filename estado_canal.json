@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-10-26T22:41:13Z",
+  "actualizado_utc": "2026-10-27T13:26:10Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -36,7 +36,7 @@
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
       "valor": "1.094,2 de 4.000 h (27,4 %)",
-      "detalle": "Últimas 4 semanas: 42,5 h. Hacen falta unas 333 h al mes.",
+      "detalle": "Últimas 4 semanas: 41,9 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
@@ -49,16 +49,16 @@
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
-      "valor": "Búhos en 1 h (27/10)",
-      "detalle": "5 estreno(s) programado(s) hasta el 27/11 (31 días de colchón) y 1 en reserva sin fecha.",
+      "valor": "Gatitos en 9 días (6/11)",
+      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (30 días de colchón) y 1 en reserva sin fecha.",
       "estado": "ok"
     },
     {
       "id": "test_largo",
       "titulo": "Prueba del formato largo: Búhos 10 min",
-      "valor": "Se estrena el 27/10",
-      "detalle": "Se lee el 3/11. A los 7 días: al menos 300 vistas por recomendados y más del 55 % de retención a los 20 s para hacer 3 vídeos largos más.",
-      "estado": "pendiente"
+      "valor": "Estrenado, aún sin datos de YouTube",
+      "detalle": "Analytics va con 1-2 días de retraso. Se lee el 3/11. A los 7 días: al menos 300 vistas por recomendados y más del 55 % de retención a los 20 s para hacer 3 vídeos largos más.",
+      "estado": "en_curso"
     },
     {
       "id": "arranque",
@@ -124,15 +124,242 @@
       "estado": "ok"
     }
   ],
+  "agentes": [
+    {
+      "id": "productor",
+      "nombre": "Productor semanal",
+      "tipo": "automatico",
+      "cadencia": "Lunes 14:00 UTC (hoy pausado)",
+      "rol": "Elige el animal que más tiempo lleva sin salir, genera los clips con Veo3 (Sjinn), los pasa por el guardián de QA, monta el vídeo con la nana y lo sube PRIVADO para que lo apruebes.",
+      "scripts": [
+        "rellenar_calendario.py",
+        "producir_siguiente.py",
+        "producir_video.py"
+      ],
+      "salidas": "Vídeo privado en YouTube, fila en data/calendario.csv, reel preparado",
+      "gasta_creditos": true,
+      "estado": "pausado",
+      "detalle": "El cron de producción está en pausa (hay reserva de vídeos hasta el 27-nov).",
+      "ultima_actividad": "2026-10-25T22:15:00Z",
+      "ultimo_run": {
+        "estado": "failure",
+        "fecha": "2026-10-25T22:18:07Z",
+        "evento": "workflow_dispatch"
+      }
+    },
+    {
+      "id": "guardian_qa",
+      "nombre": "Guardián de QA",
+      "tipo": "automatico",
+      "cadencia": "En cada producción",
+      "rol": "Revisa con Claude Haiku cada clip (personajes, estilo, cierre, texto) y el audio (BPM). Si rechaza un clip lo regenera una vez; si no cuadra, no se monta el vídeo.",
+      "scripts": [
+        "sjinn/qa_consistencia.py"
+      ],
+      "salidas": "data/qa_log.csv (veredicto por clip)",
+      "gasta_creditos": false,
+      "estado": "en_espera",
+      "detalle": "Se activa con la próxima producción.",
+      "ultima_actividad": "2026-10-26T15:41:33",
+      "ultimo_run": null
+    },
+    {
+      "id": "guardian_creditos",
+      "nombre": "Guardián de créditos",
+      "tipo": "automatico",
+      "cadencia": "En cada producción",
+      "rol": "Pone un tope de créditos por tanda, impide reintentos que repetirían un gasto y anota cada tarea de Sjinn con su coste.",
+      "scripts": [
+        "lib/registro_creditos.py"
+      ],
+      "salidas": "data/gasto_creditos.csv",
+      "gasta_creditos": false,
+      "estado": "en_espera",
+      "detalle": "Se activa con la próxima producción.",
+      "ultima_actividad": "2026-10-25T22:15:00Z",
+      "ultimo_run": null
+    },
+    {
+      "id": "aprobador",
+      "nombre": "Aprobador de vídeos",
+      "tipo": "bajo_demanda",
+      "cadencia": "Cuando tú lo lanzas (móvil u ordenador)",
+      "rol": "Pasa un vídeo privado a público o lo programa en la franja de estreno semanal, actualiza el calendario y deja listo su reel. También reprograma estrenos ya aprobados.",
+      "scripts": [
+        "aprobar_video.py",
+        "reprogramar_video.py"
+      ],
+      "salidas": "Estado del vídeo en YouTube y data/calendario.csv",
+      "gasta_creditos": false,
+      "estado": "bajo_demanda",
+      "detalle": "Actúa solo cuando se le pide.",
+      "ultima_actividad": null,
+      "ultimo_run": null
+    },
+    {
+      "id": "instagram",
+      "nombre": "Publicador de Instagram",
+      "tipo": "automatico",
+      "cadencia": "Cada día 15:00 UTC",
+      "rol": "Publica el reel de cada vídeo ya estrenado (nunca antes del día del estreno), alojándolo en el repositorio público de alojamiento y publicándolo vía Composio.",
+      "scripts": [
+        "publicar_instagram_pendientes.py",
+        "lib/instagram_upload.py"
+      ],
+      "salidas": "Reels en Instagram y data/instagram_log.csv",
+      "gasta_creditos": false,
+      "estado": "ok",
+      "detalle": "Último run correcto.",
+      "ultima_actividad": "2026-10-26T20:19:25Z",
+      "ultimo_run": {
+        "estado": "success",
+        "fecha": "2026-10-26T20:19:32Z",
+        "evento": "schedule"
+      }
+    },
+    {
+      "id": "mercado",
+      "nombre": "Agente de mercado y costes",
+      "tipo": "automatico",
+      "cadencia": "Domingos 09:00 UTC",
+      "rol": "Mira las tendencias de búsqueda del nicho, vigila los precios de generación de vídeo IA y revisa cómo rinde el canal. Escribe el informe semanal con la franja de estreno y la salud del calendario.",
+      "scripts": [
+        "monitoring/agente_mercado_costes.py",
+        "analiticas.py"
+      ],
+      "salidas": "monitoring/informe_agente_FECHA.md",
+      "gasta_creditos": false,
+      "estado": "ok",
+      "detalle": "Último run correcto.",
+      "ultima_actividad": "2026-10-25",
+      "ultimo_run": {
+        "estado": "success",
+        "fecha": "2026-10-25T13:38:14Z",
+        "evento": "schedule"
+      }
+    },
+    {
+      "id": "mejoras",
+      "nombre": "Agente de mejoras",
+      "tipo": "automatico",
+      "cadencia": "Domingos 09:00 UTC",
+      "rol": "Lee el informe, las métricas y los últimos vídeos, y propone las 3 mejoras más útiles con evidencia. Solo propone: no toca el código ni el canal.",
+      "scripts": [
+        "monitoring/agente_mejoras.py"
+      ],
+      "salidas": "monitoring/propuesta_mejoras_FECHA.md y un Issue",
+      "gasta_creditos": false,
+      "estado": "ok",
+      "detalle": "Último run correcto.",
+      "ultima_actividad": "2026-10-25",
+      "ultimo_run": {
+        "estado": "success",
+        "fecha": "2026-10-25T13:38:14Z",
+        "evento": "schedule"
+      }
+    },
+    {
+      "id": "musica",
+      "nombre": "Agente de estudio de música",
+      "tipo": "bajo_demanda",
+      "cadencia": "Cuando se pide",
+      "rol": "Estudia qué retiene mejor con esta audiencia (nana o ruido blanco) y qué busca el mercado hispano.",
+      "scripts": [
+        "monitoring/agente_musica.py"
+      ],
+      "salidas": "monitoring/estudio_musica_FECHA.md",
+      "gasta_creditos": false,
+      "estado": "bajo_demanda",
+      "detalle": "Actúa solo cuando se le pide.",
+      "ultima_actividad": "2026-09-02",
+      "ultimo_run": null
+    },
+    {
+      "id": "seguimiento",
+      "nombre": "Seguimiento diario (la pestaña Canal)",
+      "tipo": "automatico",
+      "cadencia": "Cada día 07:30 UTC y al cambiar el calendario",
+      "rol": "Calcula las horas de visualización frente a 4.000, el calendario, las visitas del último vídeo, la retención por fuente y los pendientes, y los publica para tu app.",
+      "scripts": [
+        "exportar_estado_app.py"
+      ],
+      "salidas": "estado_canal.json en el repositorio público de alojamiento",
+      "gasta_creditos": false,
+      "estado": "ok",
+      "detalle": "Ejecutándose ahora.",
+      "ultima_actividad": null,
+      "ultimo_run": {
+        "estado": "in_progress",
+        "fecha": "2026-10-27T13:25:47Z",
+        "evento": "schedule"
+      }
+    },
+    {
+      "id": "atascados",
+      "nombre": "Revisor de vídeos atascados",
+      "tipo": "automatico",
+      "cadencia": "En cada producción",
+      "rol": "Compara el calendario con el estado real en YouTube y corrige vídeos que se quedaron en privado sin fecha.",
+      "scripts": [
+        "revisar_videos_atascados.py"
+      ],
+      "salidas": "Correcciones en YouTube y en el calendario",
+      "gasta_creditos": false,
+      "estado": "en_espera",
+      "detalle": "Se activa con la próxima producción.",
+      "ultima_actividad": null,
+      "ultimo_run": null
+    },
+    {
+      "id": "auditor",
+      "nombre": "Auditor de fiabilidad",
+      "tipo": "subagente",
+      "cadencia": "Tras un fallo real de producción",
+      "rol": "Investiga por qué falló algo (timeout, rechazo del guardián, error de subida) y lo arregla en origen para que no se repita. No produce vídeos ni gasta créditos.",
+      "scripts": [
+        ".claude/agents/fiabilidad-pipeline.md"
+      ],
+      "salidas": "Correcciones en el código con tests",
+      "gasta_creditos": false,
+      "estado": "bajo_demanda",
+      "detalle": "Actúa solo cuando se le pide.",
+      "ultima_actividad": null,
+      "ultimo_run": null
+    },
+    {
+      "id": "skills",
+      "nombre": "Skills de conocimiento",
+      "tipo": "skill",
+      "cadencia": "Se consultan antes de actuar",
+      "rol": "mi-mundo-animalito guarda el contrato de la API de Sjinn, las trampas ya pagadas y los catálogos de planos; find-skills busca capacidades nuevas; youtube-seo guía los títulos.",
+      "scripts": [
+        ".claude/skills/mi-mundo-animalito",
+        ".claude/skills/find-skills",
+        ".claude/skills/youtube-seo"
+      ],
+      "salidas": "Criterio común para todos los agentes",
+      "gasta_creditos": false,
+      "estado": "bajo_demanda",
+      "detalle": "Actúa solo cuando se le pide.",
+      "ultima_actividad": null,
+      "ultimo_run": null
+    }
+  ],
+  "resumen_agentes": {
+    "pausado": 1,
+    "en_espera": 3,
+    "bajo_demanda": 4,
+    "ok": 4
+  },
   "horas": {
     "objetivo_h": 4000,
     "horas_365d": 1094.2,
     "pct_objetivo": 27.4,
     "faltan_h": 2905.8,
-    "horas_28d": 42.5,
-    "horas_7d": 4.3,
-    "ritmo_anual_h": 553,
-    "veces_hasta_objetivo": 7.2,
+    "horas_28d": 41.9,
+    "horas_7d": 3.5,
+    "ritmo_anual_h": 546,
+    "veces_hasta_objetivo": 7.3,
     "horas_mes_necesarias": 333,
     "seg_por_vista_28d": 64,
     "meses": [
@@ -183,7 +410,7 @@
       },
       {
         "mes": "2026-10",
-        "vistas": 2324,
+        "vistas": 2322,
         "horas": 40.2
       }
     ],
@@ -222,9 +449,9 @@
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1012,
-        "horas": 29.4,
-        "seg_por_vista": 110
+        "vistas": 1007,
+        "horas": 29.3,
+        "seg_por_vista": 111
       },
       {
         "nombre": "Listas de reproducción",
@@ -390,24 +617,17 @@
     "nota": "Horas reales de YouTube Analytics. Ojo: el total de 12 meses es una ventana móvil, así que los meses buenos del principio del año irán saliendo de la cuenta."
   },
   "proximo_estreno": {
-    "animal": "Buhos",
+    "animal": "Gatitos",
     "estado": "programado",
-    "duracion_min": 10,
-    "semana": "Sem43",
-    "estreno_utc": "2026-10-27T00:00:00Z"
+    "duracion_min": 9,
+    "semana": "Sem44",
+    "estreno_utc": "2026-11-06T00:00:00Z"
   },
   "animal_que_toca": {
     "animal": "Ardillas",
     "ultimo_estreno": "2026-10-08"
   },
   "calendario": [
-    {
-      "animal": "Buhos",
-      "estado": "programado",
-      "duracion_min": 10,
-      "semana": "Sem43",
-      "estreno_utc": "2026-10-27T00:00:00Z"
-    },
     {
       "animal": "Gatitos",
       "estado": "programado",
@@ -442,6 +662,15 @@
       "duracion_min": 4,
       "semana": "Sem44",
       "estreno_utc": null
+    },
+    {
+      "animal": "Buhos",
+      "estado": "publicado",
+      "duracion_min": 10,
+      "semana": "Sem43",
+      "estreno_utc": "2026-10-27T00:00:32Z",
+      "video_id": "OtJUqYl74ME",
+      "url": "https://www.youtube.com/watch?v=OtJUqYl74ME"
     },
     {
       "animal": "Koalas",
@@ -481,53 +710,12 @@
     }
   ],
   "ultimo_video": {
-    "video_id": "KQo8Cv2ROMM",
-    "titulo": "🐨 Koalas Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
-    "publicado": "2026-10-15T18:57:15Z",
-    "url": "https://www.youtube.com/watch?v=KQo8Cv2ROMM",
-    "visitas_totales": 621,
-    "visitas_diarias": [
-      {
-        "dia": "2026-10-15",
-        "vistas": 484
-      },
-      {
-        "dia": "2026-10-16",
-        "vistas": 35
-      },
-      {
-        "dia": "2026-10-17",
-        "vistas": 56
-      },
-      {
-        "dia": "2026-10-18",
-        "vistas": 35
-      },
-      {
-        "dia": "2026-10-19",
-        "vistas": 10
-      },
-      {
-        "dia": "2026-10-20",
-        "vistas": 0
-      },
-      {
-        "dia": "2026-10-21",
-        "vistas": 0
-      },
-      {
-        "dia": "2026-10-22",
-        "vistas": 1
-      },
-      {
-        "dia": "2026-10-23",
-        "vistas": 0
-      },
-      {
-        "dia": "2026-10-24",
-        "vistas": 0
-      }
-    ],
+    "video_id": "OtJUqYl74ME",
+    "titulo": "🦉 Búhos Durmiendo en su Nido (10 min) 😴 | Música para Dormir Bebés",
+    "publicado": "2026-10-27T00:00:32Z",
+    "url": "https://www.youtube.com/watch?v=OtJUqYl74ME",
+    "visitas_totales": 633,
+    "visitas_diarias": [],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
   "avisos": [
