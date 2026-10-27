@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-10-27T13:26:10Z",
+  "actualizado_utc": "2026-10-27T22:45:15Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -35,14 +35,14 @@
     {
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
-      "valor": "1.094,2 de 4.000 h (27,4 %)",
-      "detalle": "Últimas 4 semanas: 41,9 h. Hacen falta unas 333 h al mes.",
+      "valor": "1.095,0 de 4.000 h (27,4 %)",
+      "detalle": "Últimas 4 semanas: 42,6 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
       "id": "seg_por_vista",
       "titulo": "Segundos vistos por visita (4 semanas)",
-      "valor": "64 s",
+      "valor": "65 s",
       "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 33 s.",
       "estado": "atencion"
     },
@@ -86,6 +86,13 @@
       "titulo": "Prueba: títulos nuevos para búsqueda",
       "valor": null,
       "detalle": "Desde el 26-oct los títulos abren con «Música para Dormir Bebés» (y «Canciones de Cuna» en los cortos), sin «Canción Relajante» ni el nombre del canal; en español, portugués e inglés. Los 6 vídeos pendientes ya los llevan; los públicos no se han tocado. Se mide en la fuente «Búsqueda de YouTube» (línea base: 1.012 vistas y 110 s por visita en 90 días).",
+      "estado": "en_curso"
+    },
+    {
+      "id": "shorts",
+      "titulo": "Prueba: un Short con el reel de cada estreno",
+      "valor": null,
+      "detalle": "Desde el 28-oct cada estreno programado lleva un Short con su reel, que se publica 2 horas después del largo (4 ya programados: 6, 13, 20 y 27-nov). Los Shorts no cuentan para las 4.000 h: se miden solo por si traen suscriptores o visitas a los largos. Línea base: 51 vistas de Shorts en 90 días (12 s por visita). Si a las 3 semanas no hay efecto, se deja.",
       "estado": "en_curso"
     },
     {
@@ -213,7 +220,7 @@
       "ultima_actividad": "2026-10-26T20:19:25Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-26T20:19:32Z",
+        "fecha": "2026-10-27T19:49:34Z",
         "evento": "schedule"
       }
     },
@@ -290,8 +297,8 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-10-27T13:25:47Z",
-        "evento": "schedule"
+        "fecha": "2026-10-27T22:44:37Z",
+        "evento": "push"
       }
     },
     {
@@ -353,15 +360,15 @@
   },
   "horas": {
     "objetivo_h": 4000,
-    "horas_365d": 1094.2,
+    "horas_365d": 1095.0,
     "pct_objetivo": 27.4,
-    "faltan_h": 2905.8,
-    "horas_28d": 41.9,
-    "horas_7d": 3.5,
-    "ritmo_anual_h": 546,
-    "veces_hasta_objetivo": 7.3,
+    "faltan_h": 2905.0,
+    "horas_28d": 42.6,
+    "horas_7d": 4.3,
+    "ritmo_anual_h": 556,
+    "veces_hasta_objetivo": 7.2,
     "horas_mes_necesarias": 333,
-    "seg_por_vista_28d": 64,
+    "seg_por_vista_28d": 65,
     "meses": [
       {
         "mes": "2026-01",
@@ -410,34 +417,34 @@
       },
       {
         "mes": "2026-10",
-        "vistas": 2322,
-        "horas": 40.2
+        "vistas": 2337,
+        "horas": 41.0
       }
     ],
     "por_formato": [
       {
         "formato": "hasta 5 min",
         "videos": 38,
-        "vistas": 51507,
-        "horas": 479.0,
+        "vistas": 51516,
+        "horas": 479.2,
         "seg_por_vista": 33,
         "horas_por_video": 12.6
       },
       {
         "formato": "de 6 a 15 min",
         "videos": 6,
-        "vistas": 47415,
-        "horas": 221.7,
+        "vistas": 47418,
+        "horas": 221.8,
         "seg_por_vista": 17,
-        "horas_por_video": 36.9
+        "horas_por_video": 37.0
       },
       {
         "formato": "más de 15 min",
         "videos": 6,
-        "vistas": 18190,
-        "horas": 391.9,
+        "vistas": 18191,
+        "horas": 392.3,
         "seg_por_vista": 78,
-        "horas_por_video": 65.3
+        "horas_por_video": 65.4
       }
     ],
     "por_fuente_90d": [
@@ -449,15 +456,15 @@
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1007,
-        "horas": 29.3,
-        "seg_por_vista": 111
+        "vistas": 1016,
+        "horas": 29.9,
+        "seg_por_vista": 112
       },
       {
         "nombre": "Listas de reproducción",
-        "vistas": 193,
-        "horas": 17.3,
-        "seg_por_vista": 328
+        "vistas": 196,
+        "horas": 17.6,
+        "seg_por_vista": 329
       },
       {
         "nombre": "Otras páginas de YouTube",
@@ -485,9 +492,9 @@
       },
       {
         "nombre": "Enlaces externos",
-        "vistas": 42,
+        "vistas": 43,
         "horas": 0.8,
-        "seg_por_vista": 65
+        "seg_por_vista": 64
       },
       {
         "nombre": "Shorts",
@@ -499,25 +506,25 @@
     "por_dispositivo_365d": [
       {
         "nombre": "Móvil",
-        "vistas": 71448,
-        "horas": 866.4,
+        "vistas": 71455,
+        "horas": 866.8,
         "seg_por_vista": 48
       },
       {
         "nombre": "Televisión",
-        "vistas": 42780,
-        "horas": 190.2,
+        "vistas": 42784,
+        "horas": 190.7,
         "seg_por_vista": 92
       },
       {
         "nombre": "Ordenador",
-        "vistas": 1219,
+        "vistas": 1220,
         "horas": 21.3,
         "seg_por_vista": 106
       },
       {
         "nombre": "Tableta",
-        "vistas": 2041,
+        "vistas": 2042,
         "horas": 15.9,
         "seg_por_vista": 38
       }
@@ -536,8 +543,8 @@
         "titulo": "🐱 Gatitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-09",
         "duracion_s": 246,
-        "vistas": 23307,
-        "minutos": 13966,
+        "vistas": 23309,
+        "minutos": 13971,
         "horas": 232.8,
         "seg_por_vista": 40
       },
@@ -545,8 +552,8 @@
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal (10 min) 😴 | Ruido Blanco y Música Relajante para Bebés",
         "publicado": "2026-02-05",
         "duracion_s": 585,
-        "vistas": 46042,
-        "minutos": 10143,
+        "vistas": 46044,
+        "minutos": 10145,
         "horas": 169.1,
         "seg_por_vista": 53
       },
@@ -554,8 +561,8 @@
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal 💤| Música Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-21",
         "duracion_s": 241,
-        "vistas": 7536,
-        "minutos": 4267,
+        "vistas": 7537,
+        "minutos": 4268,
         "horas": 71.1,
         "seg_por_vista": 37
       },
@@ -563,8 +570,8 @@
         "titulo": "🐰 Conejitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-05",
         "duracion_s": 229,
-        "vistas": 2645,
-        "minutos": 2340,
+        "vistas": 2646,
+        "minutos": 2342,
         "horas": 39.0,
         "seg_por_vista": 59
       },
@@ -590,10 +597,10 @@
         "titulo": "🐱 Gatitos Durmiendo 😴 | 10 min Ruido Blanco Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-02-25",
         "duracion_s": 613,
-        "vistas": 159,
-        "minutos": 961,
-        "horas": 16.0,
-        "seg_por_vista": 362
+        "vistas": 160,
+        "minutos": 971,
+        "horas": 16.2,
+        "seg_por_vista": 364
       },
       {
         "titulo": "🐨 Koalas Durmiendo 20 min 😴 | Música Relajante para Dormir Bebés | Mi Mundo Animalito 🌙",
@@ -714,7 +721,7 @@
     "titulo": "🦉 Búhos Durmiendo en su Nido (10 min) 😴 | Música para Dormir Bebés",
     "publicado": "2026-10-27T00:00:32Z",
     "url": "https://www.youtube.com/watch?v=OtJUqYl74ME",
-    "visitas_totales": 633,
+    "visitas_totales": 661,
     "visitas_diarias": [],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
