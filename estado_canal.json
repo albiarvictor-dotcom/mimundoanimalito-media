@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-10-27T22:45:15Z",
+  "actualizado_utc": "2026-10-27T23:35:41Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -61,6 +61,20 @@
       "estado": "en_curso"
     },
     {
+      "id": "actividad",
+      "titulo": "Actividad de los agentes",
+      "valor": "2 tarea(s) en 7 días",
+      "detalle": "Última: Lectura de horas y retención (2026-10-27): 42.6 h en 28 días, 3.4 h la última semana; ritmo anual 556 h frente a 4.000 (×7.2 por debajo).",
+      "estado": "atencion"
+    },
+    {
+      "id": "competencia",
+      "titulo": "Pulso de la competencia",
+      "valor": null,
+      "detalle": "5 de 10 canales de referencia subieron algún vídeo en los últimos 7 días; 3 subieron dos o más (nosotros: uno por semana). El canal con más ritmo es Mother & Baby Sounds: 13 vídeos en 30 días, de unos 214.6 min.",
+      "estado": "ok"
+    },
+    {
       "id": "arranque",
       "titulo": "Retención en los primeros 20 s",
       "valor": null,
@@ -93,6 +107,13 @@
       "titulo": "Prueba: un Short con el reel de cada estreno",
       "valor": null,
       "detalle": "Desde el 28-oct cada estreno programado lleva un Short con su reel, que se publica 2 horas después del largo (4 ya programados: 6, 13, 20 y 27-nov). Los Shorts no cuentan para las 4.000 h: se miden solo por si traen suscriptores o visitas a los largos. Línea base: 51 vistas de Shorts en 90 días (12 s por visita). Si a las 3 semanas no hay efecto, se deja.",
+      "estado": "en_curso"
+    },
+    {
+      "id": "agentes_activos",
+      "titulo": "Agentes en marcha entre estrenos",
+      "valor": null,
+      "detalle": "Desde el 28-oct los agentes trabajan de lunes a viernes aunque no haya producción: pulso de la competencia (lun y jue), lectura de horas y retención (mar y vie) y propuesta de mejoras con IA (mié). Cada tarea queda en el registro de actividad. Primer dato de la competencia: Mother & Baby Sounds sube 13 vídeos al mes de 2 a 10 horas con títulos tipo «duérmete en 3 minutos» y es el que más rinde por hora.",
       "estado": "en_curso"
     },
     {
@@ -129,6 +150,163 @@
       "valor": null,
       "detalle": "Quedan clips de Búhos y de Gatitos (mañana soleada y mamá gris) para 2-3 vídeos más sin gastar créditos.",
       "estado": "ok"
+    }
+  ],
+  "competencia": {
+    "actualizado_utc": "2026-10-27T23:07:14Z",
+    "observaciones": [
+      "5 de 10 canales de referencia subieron algún vídeo en los últimos 7 días; 3 subieron dos o más (nosotros: uno por semana).",
+      "El canal con más ritmo es Mother & Baby Sounds: 13 vídeos en 30 días, de unos 214.6 min.",
+      "Duración típica de lo que suben los canales activos: mediana de 117.6 min (los nuestros: 3-4 min los cortos y 9-10 min los largos).",
+      "Lo que mejor va en 14 días: «Instant Sleep within 3 Minutes 💛 Mozart for Babies + Mom’s Gentle Shus» de Mother & Baby Sounds. 9.179 vistas (296.8 por hora. 599.0 min)."
+    ],
+    "novedades": [
+      {
+        "canal": "Mother & Baby Sounds",
+        "titulo": "Instant Sleep within 3 Minutes 💛 Mozart for Babies + Mom’s Gentle Shushing | 10 Hours DARK SCREEN",
+        "publicado": "2026-10-26",
+        "vistas": 9179,
+        "vph": 296.8,
+        "duracion_min": 599.0,
+        "x_mediana": 0.3,
+        "url": "https://www.youtube.com/watch?v=D7WSq5udsgM"
+      },
+      {
+        "canal": "Mother & Baby Sounds",
+        "titulo": "Relaxing Baby Sleep Music To Fall Asleep In 3 Minutes 😴 Lullaby + Shhh Noise For Baby | Dark Screen",
+        "publicado": "2026-10-22",
+        "vistas": 36739,
+        "vph": 280.4,
+        "duracion_min": 151.7,
+        "x_mediana": 1.3,
+        "url": "https://www.youtube.com/watch?v=9bC7EnX6wsM"
+      },
+      {
+        "canal": "Kidz Wonder TV Show",
+        "titulo": "Old MacDonald Lullaby | A Gentle Goodnight on the Farm",
+        "publicado": "2026-10-17",
+        "vistas": 34180,
+        "vph": 138.3,
+        "duracion_min": 4.5,
+        "x_mediana": 0.1,
+        "url": "https://www.youtube.com/watch?v=6HsX0K2toI8"
+      },
+      {
+        "canal": "Kidz Wonder TV Show",
+        "titulo": "Sweetest Best Friends 🐶🐱 Gentle Lullaby for Babies & Toddlers",
+        "publicado": "2026-10-27",
+        "vistas": 984,
+        "vph": 138.2,
+        "duracion_min": 3.5,
+        "x_mediana": 0.0,
+        "url": "https://www.youtube.com/watch?v=8gcgJl8oYo0"
+      },
+      {
+        "canal": "Mother & Baby Sounds",
+        "titulo": "Baby Sleep Music to Fall Asleep in 3 Minutes 💤 Lullaby + Womb + Shhh Noise For Babies | Dark Screen",
+        "publicado": "2026-10-24",
+        "vistas": 8310,
+        "vph": 101.1,
+        "duracion_min": 151.5,
+        "x_mediana": 0.3,
+        "url": "https://www.youtube.com/watch?v=VCwrNgKEP8Y"
+      },
+      {
+        "canal": "Mother & Baby Sounds",
+        "titulo": "Baby Sleep Music That Works in Just 3 Minutes! 😴 Heartbeat & Water + Twinkle Twinkle | Dark Screen",
+        "publicado": "2026-10-17",
+        "vistas": 17380,
+        "vph": 69.5,
+        "duracion_min": 125.9,
+        "x_mediana": 0.6,
+        "url": "https://www.youtube.com/watch?v=Lx1z8Di-9-A"
+      }
+    ],
+    "canales": [
+      {
+        "nombre": "Chikiti Bitz",
+        "subidas_7d": 0,
+        "subidas_30d": 0,
+        "duracion_tipica_min": null,
+        "mediana_vistas": 39568
+      },
+      {
+        "nombre": "Kidz Wonder TV Show",
+        "subidas_7d": 2,
+        "subidas_30d": 4,
+        "duracion_tipica_min": 4.4,
+        "mediana_vistas": 246103
+      },
+      {
+        "nombre": "VickyLand",
+        "subidas_7d": 2,
+        "subidas_30d": 3,
+        "duracion_tipica_min": 3.0,
+        "mediana_vistas": 8529
+      },
+      {
+        "nombre": "SunnyMelo Nursery Rhymes",
+        "subidas_7d": 0,
+        "subidas_30d": 0,
+        "duracion_tipica_min": null,
+        "mediana_vistas": 2212
+      },
+      {
+        "nombre": "Peque Canta y Aprende",
+        "subidas_7d": 0,
+        "subidas_30d": 0,
+        "duracion_tipica_min": null,
+        "mediana_vistas": 1165
+      },
+      {
+        "nombre": "Cute Baby Dreaming",
+        "subidas_7d": 0,
+        "subidas_30d": 0,
+        "duracion_tipica_min": null,
+        "mediana_vistas": 474
+      },
+      {
+        "nombre": "Mother & Baby Sounds",
+        "subidas_7d": 3,
+        "subidas_30d": 13,
+        "duracion_tipica_min": 214.6,
+        "mediana_vistas": 28429
+      },
+      {
+        "nombre": "Baby Aesthetic TV",
+        "subidas_7d": 0,
+        "subidas_30d": 0,
+        "duracion_tipica_min": null,
+        "mediana_vistas": 23809
+      },
+      {
+        "nombre": "Sweet Baby Dreams",
+        "subidas_7d": 1,
+        "subidas_30d": 8,
+        "duracion_tipica_min": 120.0,
+        "mediana_vistas": 22810
+      },
+      {
+        "nombre": "Little Baby Bum - Lullabies",
+        "subidas_7d": 1,
+        "subidas_30d": 4,
+        "duracion_tipica_min": 117.6,
+        "mediana_vistas": 6792
+      }
+    ]
+  },
+  "actividad_agentes": [
+    {
+      "fecha_utc": "2026-10-27T23:07:33Z",
+      "agente": "Lectura de horas y retención",
+      "resultado": "ok",
+      "resumen": "42.6 h en 28 días, 3.4 h la última semana; ritmo anual 556 h frente a 4.000 (×7.2 por debajo)."
+    },
+    {
+      "fecha_utc": "2026-10-27T23:07:20Z",
+      "agente": "Pulso de la competencia",
+      "resultado": "ok",
+      "resumen": "10 canales vigilados. 5 de 10 canales de referencia subieron algún vídeo en los últimos 7 días; 3 subieron dos o más (nosotros: uno por semana)."
     }
   ],
   "agentes": [
@@ -297,7 +475,7 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-10-27T22:44:37Z",
+        "fecha": "2026-10-27T23:35:02Z",
         "evento": "push"
       }
     },
@@ -350,13 +528,55 @@
       "detalle": "Actúa solo cuando se le pide.",
       "ultima_actividad": null,
       "ultimo_run": null
+    },
+    {
+      "id": "pulso",
+      "nombre": "Pulso de la competencia",
+      "tipo": "automatico",
+      "cadencia": "Lunes y jueves 08:00 UTC",
+      "rol": "Mira qué han subido esta semana 10 canales de referencia del nicho (ritmo, duración, vistas por hora, múltiplo sobre su mediana) y deja frases comprobables, sin vidIQ.",
+      "scripts": [
+        "agente_pulso.py",
+        "data/competencia_canales.json"
+      ],
+      "salidas": "data/competencia_pulso.json",
+      "gasta_creditos": false,
+      "estado": "ok",
+      "detalle": "Ejecutándose ahora.",
+      "ultima_actividad": "2026-10-27T23:07:33Z",
+      "ultimo_run": {
+        "estado": "in_progress",
+        "fecha": "2026-10-27T23:35:27Z",
+        "evento": "workflow_dispatch"
+      }
+    },
+    {
+      "id": "rotacion",
+      "nombre": "Rotación de agentes",
+      "tipo": "automatico",
+      "cadencia": "Cada día laborable 08:00 UTC",
+      "rol": "Reparte el trabajo por días para que los agentes no estén parados entre estrenos: pulso de la competencia (lun y jue), lectura de horas y retención (mar y vie), propuesta de mejoras con IA (mié). Anota cada tarea en el registro de actividad.",
+      "scripts": [
+        "agente_actividad.py",
+        "lib/actividad.py"
+      ],
+      "salidas": "data/actividad_agentes.csv",
+      "gasta_creditos": false,
+      "estado": "ok",
+      "detalle": "Ejecutándose ahora.",
+      "ultima_actividad": "2026-10-27T23:07:33Z",
+      "ultimo_run": {
+        "estado": "in_progress",
+        "fecha": "2026-10-27T23:35:27Z",
+        "evento": "workflow_dispatch"
+      }
     }
   ],
   "resumen_agentes": {
     "pausado": 1,
     "en_espera": 3,
     "bajo_demanda": 4,
-    "ok": 4
+    "ok": 6
   },
   "horas": {
     "objetivo_h": 4000,
