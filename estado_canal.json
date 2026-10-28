@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-10-28T14:13:40Z",
+  "actualizado_utc": "2026-10-28T23:00:33Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -35,22 +35,29 @@
     {
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
-      "valor": "1.095,0 de 4.000 h (27,4 %)",
-      "detalle": "Últimas 4 semanas: 42,0 h. Hacen falta unas 333 h al mes.",
+      "valor": "1.095,9 de 4.000 h (27,4 %)",
+      "detalle": "Últimas 4 semanas: 42,9 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
       "id": "seg_por_vista",
       "titulo": "Segundos vistos por visita (4 semanas)",
-      "valor": "64 s",
-      "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 33 s.",
+      "valor": "65 s",
+      "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 34 s.",
       "estado": "atencion"
+    },
+    {
+      "id": "plan_retencion",
+      "titulo": "Retención a 20 s (plan de retención)",
+      "valor": "50,8 % · meta 58 % · base 50,8 %",
+      "detalle": "A 10 s: 70,7 %. A 60 s: 19,9 % (meta 28 %). 6 vídeos medidos el 2026-10-28; recomendados 85 % de las vistas.",
+      "estado": "en_curso"
     },
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
       "valor": "Gatitos en 8 días (6/11)",
-      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (29 días de colchón) y 1 en reserva sin fecha.",
+      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (29 días de colchón) y 2 en reserva sin fecha.",
       "estado": "ok"
     },
     {
@@ -63,8 +70,8 @@
     {
       "id": "actividad",
       "titulo": "Actividad de los agentes",
-      "valor": "3 tarea(s) en 7 días",
-      "detalle": "Última: Pulso de la competencia (2026-10-27): 10 canales vigilados. 5 de 10 canales de referencia subieron algún vídeo en los últimos 7 días; 3 subieron dos o más (nosotros: uno por semana).",
+      "valor": "4 tarea(s) en 7 días",
+      "detalle": "Última: Propuesta de mejoras (2026-10-28): Propuesta nueva: propuesta_mejoras_2026-10-28.md.",
       "estado": "ok"
     },
     {
@@ -117,6 +124,13 @@
       "estado": "en_curso"
     },
     {
+      "id": "plan_retencion",
+      "titulo": "Plan de retención (medido a diario)",
+      "valor": null,
+      "detalle": "Meta antes del 30-nov: ≥ 58 % de retención a los 20 s y ≥ 28 % a los 60 s en vídeos con 300 vistas o más (base: 50,8 % y 20 %), y que el 10 % de las vistas lleguen por búsqueda o listas (base 3 %). Seis experimentos en data/plan_retencion.json; la medición diaria está en data/retencion_diaria.csv.",
+      "estado": "en_curso"
+    },
+    {
       "id": "canciones",
       "titulo": "Canal de Canciones",
       "valor": null,
@@ -150,6 +164,107 @@
       "valor": null,
       "detalle": "Quedan clips de Búhos y de Gatitos (mañana soleada y mamá gris) para 2-3 vídeos más sin gastar créditos.",
       "estado": "ok"
+    }
+  ],
+  "plan_retencion": {
+    "actualizado": "2026-10-28",
+    "objetivo": "Subir la retención de los vídeos recientes (con 300 vistas o más) a ≥ 58 % a los 20 s y ≥ 28 % a los 60 s antes del 30-nov, y que el 10 % de las vistas lleguen por búsqueda o listas. Es el camino a las 4.000 h: cada punto de retención a los 60 s multiplica los segundos por visita.",
+    "linea_base": {
+      "fecha": "2026-10-28",
+      "videos": 6,
+      "ret_10s": 70.7,
+      "ret_20s": 50.8,
+      "ret_60s": 20.0,
+      "pct_recomendados": 87.0,
+      "pct_busqueda_y_listas": 3.0
+    },
+    "meta": {
+      "ret_20s": 58.0,
+      "ret_60s": 28.0,
+      "pct_busqueda_y_listas": 10.0,
+      "fecha": "2026-11-30"
+    },
+    "diagnostico": [
+      "La gente no llega buscando dormir al bebé: entre el 90 y el 94 % de las vistas vienen de «vídeos sugeridos» (al acabar otra canción infantil) y solo el 0,2-2,7 % de la búsqueda. Quien busca «música para dormir bebés» apenas nos ve.",
+      "La caída es gradual, no un acantilado: se pierde el 30 % a los 10 s, el 49 % a los 20 s y el 80 % a los 60 s. Así se comporta quien llega por recomendación y no encuentra lo que esperaba.",
+      "No parece un problema de calidad percibida: los «me gusta» por cada 1.000 vistas (1,6-12) son parecidos a los de la competencia (3-12). Con los comentarios desactivados en vídeos para niños no hay más señal pública.",
+      "Lo que ganan los competidores es una promesa de función: Mother & Baby Sounds sube 13 vídeos al mes de 2 a 10 h con «duérmete en 3 minutos», «Calm lullaby + shhh», fotos de bebés reales y texto grande. Kidz Wonder vende historias y canciones con título conocido y personajes 3D.",
+      "Nuestros primeros 20 s: una escena casi inmóvil, audio que sube durante 3 s (el segundo 0 está a -43 dBFS), sin gancho, y miniatura sin texto ni promesa. Es coherente con lo que ve alguien que llega desde otra canción cantada."
+    ],
+    "experimentos": [
+      {
+        "id": "E1",
+        "estado": "en_curso",
+        "titulo": "Más entradas por búsqueda y listas",
+        "hipotesis": "El público que busca o entra por lista ve más tiempo (110 s y 328 s por visita frente a 41 s).",
+        "accion": "Títulos «Música para Dormir Bebés» y enlace a la lista de nanas en la descripción (desde 26-27 oct).",
+        "metrica": "pct_busqueda y pct_listas en data/retencion_diaria.csv",
+        "criterio": "pasar de 3 % a 10 % de las vistas en 30 días",
+        "lectura": "2026-11-18"
+      },
+      {
+        "id": "E2",
+        "estado": "en_curso",
+        "titulo": "Formato largo y maratón",
+        "hipotesis": "Los vídeos largos dan más segundos por visita y más horas por vídeo (63 s del Búhos frente a 30 s).",
+        "accion": "Búhos 10 min (27-oct), Gatitos 9 min (6-nov) y maratón de 2 h (por estrenar).",
+        "metrica": "seg_por_visita y horas por vídeo",
+        "criterio": "≥ 60 s por visita en los largos y ≥ 25 h en 14 días",
+        "lectura": "2026-11-10"
+      },
+      {
+        "id": "E3",
+        "estado": "propuesto",
+        "titulo": "Arranque con movimiento y sonido desde el segundo 0",
+        "hipotesis": "Una escena inmóvil y 3 s casi en silencio no sostienen a quien llega de una canción cantada.",
+        "accion": "En la próxima producción: primer clip con movimiento visible (bostezo, respiración), sin subida de volumen y con el tarareo de bienvenida desde el principio.",
+        "metrica": "ret_10s y ret_20s",
+        "criterio": "ret_20s ≥ 58 % con ≥ 300 vistas, frente al 50,8 % de base",
+        "lectura": "a los 7 días del estreno"
+      },
+      {
+        "id": "E4",
+        "estado": "propuesto",
+        "titulo": "Capa «shhh» rítmica a volumen bajo",
+        "hipotesis": "El shush rítmico es lo que diferencia a la competencia que gana en horas y lo busca quien duerme a un bebé.",
+        "accion": "Mezclar un shush suave a unas 60 pulsaciones por minuto con la nana (volumen bajo, límite seguro para bebés) en un estreno, comparado con el siguiente sin él.",
+        "metrica": "ret_60s y seg_por_visita",
+        "criterio": "+5 puntos de ret_60s con mezcla de fuentes parecida",
+        "lectura": "a los 7 días del estreno"
+      },
+      {
+        "id": "E5",
+        "estado": "propuesto",
+        "titulo": "Miniatura con promesa (prueba de Studio)",
+        "hipotesis": "Una miniatura con texto grande que prometa la función atrae al público que busca dormir, no al que viene de canciones.",
+        "accion": "«Probar y comparar» de Studio con 2 miniaturas en un vídeo ya público (gratis). Aparte del texto sobre el vídeo, que sigue descartado.",
+        "metrica": "porcentaje de clics y tiempo de visualización de Studio",
+        "criterio": "ganadora con más tiempo de visualización",
+        "lectura": "2 semanas"
+      },
+      {
+        "id": "E6",
+        "estado": "en_curso",
+        "titulo": "Short con el reel de cada estreno",
+        "hipotesis": "Los Shorts pueden traer suscriptores y visitas a los largos (no cuentan para las 4.000 h).",
+        "accion": "4 Shorts programados el 6, 13, 20 y 27-nov.",
+        "metrica": "fuente «Shorts» y suscriptores",
+        "criterio": "efecto medible a las 3 semanas, si no se deja",
+        "lectura": "2026-11-27"
+      }
+    ],
+    "regla_de_lectura": "Un cambio solo se da por bueno si mejora la retención con una mezcla de fuentes parecida (columnas pct_recomendados y pct_busqueda): si el vídeo cambia de dónde llega el público, no se puede atribuir."
+  },
+  "retencion_diaria": [
+    {
+      "fecha": "2026-10-28",
+      "videos": 6,
+      "ret_10s": 70.7,
+      "ret_20s": 50.8,
+      "ret_60s": 19.9,
+      "seg_por_visita": 38.7,
+      "pct_recomendados": 85.4,
+      "pct_busqueda_y_listas": 4.8
     }
   ],
   "competencia": {
@@ -297,6 +412,12 @@
   },
   "actividad_agentes": [
     {
+      "fecha_utc": "2026-10-28T14:58:33Z",
+      "agente": "Propuesta de mejoras",
+      "resultado": "ok",
+      "resumen": "Propuesta nueva: propuesta_mejoras_2026-10-28.md."
+    },
+    {
       "fecha_utc": "2026-10-27T23:35:51Z",
       "agente": "Pulso de la competencia",
       "resultado": "ok",
@@ -351,7 +472,7 @@
       "gasta_creditos": false,
       "estado": "en_espera",
       "detalle": "Se activa con la próxima producción.",
-      "ultima_actividad": "2026-10-26T15:41:33",
+      "ultima_actividad": "2026-10-28T23:40:12",
       "ultimo_run": null
     },
     {
@@ -404,7 +525,7 @@
       "ultima_actividad": "2026-10-26T20:19:25Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-27T19:49:34Z",
+        "fecha": "2026-10-28T20:05:29Z",
         "evento": "schedule"
       }
     },
@@ -442,7 +563,7 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-10-25",
+      "ultima_actividad": "2026-10-28",
       "ultimo_run": {
         "estado": "success",
         "fecha": "2026-10-25T13:38:14Z",
@@ -481,8 +602,8 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-10-28T14:13:05Z",
-        "evento": "schedule"
+        "fecha": "2026-10-28T23:00:01Z",
+        "evento": "push"
       }
     },
     {
@@ -549,11 +670,11 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-10-27T23:35:51Z",
+      "ultima_actividad": "2026-10-28T14:58:33Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-27T23:35:57Z",
-        "evento": "workflow_dispatch"
+        "fecha": "2026-10-28T14:58:39Z",
+        "evento": "schedule"
       }
     },
     {
@@ -570,11 +691,32 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-10-27T23:35:51Z",
+      "ultima_actividad": "2026-10-28T14:58:33Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-27T23:35:57Z",
-        "evento": "workflow_dispatch"
+        "fecha": "2026-10-28T14:58:39Z",
+        "evento": "schedule"
+      }
+    },
+    {
+      "id": "retencion",
+      "nombre": "Medición diaria de retención",
+      "tipo": "automatico",
+      "cadencia": "Cada día 08:00 UTC",
+      "rol": "Mide cada día la retención a 5, 10, 20 y 60 s de los vídeos públicos de los últimos 45 días (con 50 vistas o más) y de dónde vienen las vistas. Es la medida del plan de retención.",
+      "scripts": [
+        "agente_retencion.py",
+        "data/plan_retencion.json"
+      ],
+      "salidas": "data/retencion_diaria.csv",
+      "gasta_creditos": false,
+      "estado": "ok",
+      "detalle": "Último run correcto.",
+      "ultima_actividad": "2026-10-28",
+      "ultimo_run": {
+        "estado": "success",
+        "fecha": "2026-10-28T14:58:39Z",
+        "evento": "schedule"
       }
     }
   ],
@@ -582,19 +724,19 @@
     "pausado": 1,
     "en_espera": 3,
     "bajo_demanda": 4,
-    "ok": 6
+    "ok": 7
   },
   "horas": {
     "objetivo_h": 4000,
-    "horas_365d": 1095.0,
+    "horas_365d": 1095.9,
     "pct_objetivo": 27.4,
-    "faltan_h": 2905.0,
-    "horas_28d": 42.0,
-    "horas_7d": 3.4,
-    "ritmo_anual_h": 548,
-    "veces_hasta_objetivo": 7.3,
+    "faltan_h": 2904.1,
+    "horas_28d": 42.9,
+    "horas_7d": 4.3,
+    "ritmo_anual_h": 559,
+    "veces_hasta_objetivo": 7.2,
     "horas_mes_necesarias": 333,
-    "seg_por_vista_28d": 64,
+    "seg_por_vista_28d": 65,
     "meses": [
       {
         "mes": "2026-01",
@@ -643,31 +785,31 @@
       },
       {
         "mes": "2026-10",
-        "vistas": 2337,
-        "horas": 41.0
+        "vistas": 2361,
+        "horas": 41.8
       }
     ],
     "por_formato": [
       {
         "formato": "hasta 5 min",
-        "videos": 38,
-        "vistas": 51516,
-        "horas": 479.2,
-        "seg_por_vista": 33,
-        "horas_por_video": 12.6
+        "videos": 37,
+        "vistas": 51515,
+        "horas": 479.5,
+        "seg_por_vista": 34,
+        "horas_por_video": 13.0
       },
       {
         "formato": "de 6 a 15 min",
-        "videos": 6,
-        "vistas": 47418,
-        "horas": 221.8,
+        "videos": 7,
+        "vistas": 47426,
+        "horas": 222.3,
         "seg_por_vista": 17,
-        "horas_por_video": 37.0
+        "horas_por_video": 31.8
       },
       {
         "formato": "más de 15 min",
         "videos": 6,
-        "vistas": 18191,
+        "vistas": 18192,
         "horas": 392.3,
         "seg_por_vista": 78,
         "horas_por_video": 65.4
@@ -676,20 +818,20 @@
     "por_fuente_90d": [
       {
         "nombre": "Recomendados",
-        "vistas": 5635,
+        "vistas": 5636,
         "horas": 64.7,
         "seg_por_vista": 41
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1009,
-        "horas": 29.8,
+        "vistas": 1017,
+        "horas": 30.2,
         "seg_por_vista": 112
       },
       {
         "nombre": "Listas de reproducción",
-        "vistas": 196,
-        "horas": 17.6,
+        "vistas": 199,
+        "horas": 17.8,
         "seg_por_vista": 329
       },
       {
@@ -699,16 +841,16 @@
         "seg_por_vista": 60
       },
       {
-        "nombre": "Página del canal",
-        "vistas": 136,
+        "nombre": "Suscriptores",
+        "vistas": 273,
         "horas": 2.4,
-        "seg_por_vista": 67
+        "seg_por_vista": 32
       },
       {
-        "nombre": "Suscriptores",
-        "vistas": 269,
-        "horas": 2.2,
-        "seg_por_vista": 30
+        "nombre": "Página del canal",
+        "vistas": 143,
+        "horas": 2.4,
+        "seg_por_vista": 64
       },
       {
         "nombre": "Sin enlace",
@@ -732,20 +874,20 @@
     "por_dispositivo_365d": [
       {
         "nombre": "Móvil",
-        "vistas": 71455,
-        "horas": 866.8,
+        "vistas": 71473,
+        "horas": 867.1,
         "seg_por_vista": 48
       },
       {
         "nombre": "Televisión",
-        "vistas": 42784,
-        "horas": 190.7,
-        "seg_por_vista": 92
+        "vistas": 42789,
+        "horas": 191.1,
+        "seg_por_vista": 93
       },
       {
         "nombre": "Ordenador",
-        "vistas": 1220,
-        "horas": 21.3,
+        "vistas": 1221,
+        "horas": 21.5,
         "seg_por_vista": 106
       },
       {
@@ -769,36 +911,36 @@
         "titulo": "🐱 Gatitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-09",
         "duracion_s": 246,
-        "vistas": 23309,
-        "minutos": 13971,
-        "horas": 232.8,
+        "vistas": 23311,
+        "minutos": 13975,
+        "horas": 232.9,
         "seg_por_vista": 40
       },
       {
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal (10 min) 😴 | Ruido Blanco y Música Relajante para Bebés",
         "publicado": "2026-02-05",
         "duracion_s": 585,
-        "vistas": 46044,
-        "minutos": 10145,
-        "horas": 169.1,
+        "vistas": 46045,
+        "minutos": 10155,
+        "horas": 169.2,
         "seg_por_vista": 53
       },
       {
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal 💤| Música Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-21",
         "duracion_s": 241,
-        "vistas": 7537,
-        "minutos": 4268,
-        "horas": 71.1,
+        "vistas": 7539,
+        "minutos": 4269,
+        "horas": 71.2,
         "seg_por_vista": 37
       },
       {
         "titulo": "🐰 Conejitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-05",
         "duracion_s": 229,
-        "vistas": 2646,
-        "minutos": 2342,
-        "horas": 39.0,
+        "vistas": 2651,
+        "minutos": 2356,
+        "horas": 39.3,
         "seg_por_vista": 59
       },
       {
@@ -823,10 +965,10 @@
         "titulo": "🐱 Gatitos Durmiendo 😴 | 10 min Ruido Blanco Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-02-25",
         "duracion_s": 613,
-        "vistas": 160,
-        "minutos": 971,
-        "horas": 16.2,
-        "seg_por_vista": 364
+        "vistas": 161,
+        "minutos": 981,
+        "horas": 16.4,
+        "seg_por_vista": 365
       },
       {
         "titulo": "🐨 Koalas Durmiendo 20 min 😴 | Música Relajante para Dormir Bebés | Mi Mundo Animalito 🌙",
@@ -897,6 +1039,13 @@
       "estreno_utc": null
     },
     {
+      "animal": "Gatitos",
+      "estado": "esperando_aprobacion",
+      "duracion_min": 120,
+      "semana": "Sem45",
+      "estreno_utc": null
+    },
+    {
       "animal": "Buhos",
       "estado": "publicado",
       "duracion_min": 10,
@@ -947,14 +1096,14 @@
     "titulo": "🦉 Búhos Durmiendo en su Nido (10 min) 😴 | Música para Dormir Bebés",
     "publicado": "2026-10-27T00:00:32Z",
     "url": "https://www.youtube.com/watch?v=OtJUqYl74ME",
-    "visitas_totales": 667,
+    "visitas_totales": 669,
     "visitas_diarias": [],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
   "avisos": [
     {
       "nivel": "info",
-      "texto": "1 vídeo(s) privado(s) esperando tu aprobación: Gatitos."
+      "texto": "2 vídeo(s) privado(s) esperando tu aprobación: Gatitos."
     }
   ]
 }
