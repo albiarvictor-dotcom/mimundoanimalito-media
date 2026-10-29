@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-10-28T23:00:33Z",
+  "actualizado_utc": "2026-10-29T14:34:26Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -36,13 +36,13 @@
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
       "valor": "1.095,9 de 4.000 h (27,4 %)",
-      "detalle": "Últimas 4 semanas: 42,9 h. Hacen falta unas 333 h al mes.",
+      "detalle": "Últimas 4 semanas: 42,0 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
       "id": "seg_por_vista",
       "titulo": "Segundos vistos por visita (4 semanas)",
-      "valor": "65 s",
+      "valor": "64 s",
       "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 34 s.",
       "estado": "atencion"
     },
@@ -56,8 +56,8 @@
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
-      "valor": "Gatitos en 8 días (6/11)",
-      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (29 días de colchón) y 2 en reserva sin fecha.",
+      "valor": "Gatitos en 7 días (6/11)",
+      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (28 días de colchón) y 2 en reserva sin fecha.",
       "estado": "ok"
     },
     {
@@ -167,7 +167,7 @@
     }
   ],
   "plan_retencion": {
-    "actualizado": "2026-10-28",
+    "actualizado": "2026-10-29",
     "objetivo": "Subir la retención de los vídeos recientes (con 300 vistas o más) a ≥ 58 % a los 20 s y ≥ 28 % a los 60 s antes del 30-nov, y que el 10 % de las vistas lleguen por búsqueda o listas. Es el camino a las 4.000 h: cada punto de retención a los 60 s multiplica los segundos por visita.",
     "linea_base": {
       "fecha": "2026-10-28",
@@ -189,7 +189,8 @@
       "La caída es gradual, no un acantilado: se pierde el 30 % a los 10 s, el 49 % a los 20 s y el 80 % a los 60 s. Así se comporta quien llega por recomendación y no encuentra lo que esperaba.",
       "No parece un problema de calidad percibida: los «me gusta» por cada 1.000 vistas (1,6-12) son parecidos a los de la competencia (3-12). Con los comentarios desactivados en vídeos para niños no hay más señal pública.",
       "Lo que ganan los competidores es una promesa de función: Mother & Baby Sounds sube 13 vídeos al mes de 2 a 10 h con «duérmete en 3 minutos», «Calm lullaby + shhh», fotos de bebés reales y texto grande. Kidz Wonder vende historias y canciones con título conocido y personajes 3D.",
-      "Nuestros primeros 20 s: una escena casi inmóvil, audio que sube durante 3 s (el segundo 0 está a -43 dBFS), sin gancho, y miniatura sin texto ni promesa. Es coherente con lo que ve alguien que llega desde otra canción cantada."
+      "Nuestros primeros 20 s: una escena casi inmóvil, audio que sube durante 3 s (el segundo 0 está a -43 dBFS), sin gancho, y miniatura sin texto ni promesa. Es coherente con lo que ve alguien que llega desde otra canción cantada.",
+      "Comparación del 29-oct con 4 canales (docs/arranque_competencia_2026-10-29.md): tres arrancan a -16/-19 LUFS desde el segundo 0 (nosotros a -33) y todos tienen movimiento visible constante; el de más horas habla al adulto («no estás sola», «vamos a dormir») sobre pantalla negra. No ganan por calidad de imagen: la nuestra es mejor."
     ],
     "experimentos": [
       {
@@ -217,17 +218,18 @@
         "estado": "propuesto",
         "titulo": "Arranque con movimiento y sonido desde el segundo 0",
         "hipotesis": "Una escena inmóvil y 3 s casi en silencio no sostienen a quien llega de una canción cantada.",
-        "accion": "En la próxima producción: primer clip con movimiento visible (bostezo, respiración), sin subida de volumen y con el tarareo de bienvenida desde el principio.",
+        "accion": "Listo en el montaje (29-oct, ARRANQUE_E3=1): la nana entra con un fundido de 0,3 s en vez de 3 s (el primer segundo pasa de -33 a -21 LUFS) y el tarareo suena desde el segundo 0; la apertura ya empieza con un plano cercano. Se activa en la próxima producción (~20-nov); los vídeos de reserva ya están subidos y no cambian.",
         "metrica": "ret_10s y ret_20s",
         "criterio": "ret_20s ≥ 58 % con ≥ 300 vistas, frente al 50,8 % de base",
         "lectura": "a los 7 días del estreno"
       },
       {
         "id": "E4",
-        "estado": "propuesto",
+        "estado": "retirado",
+        "motivo_retiro": "29-oct: el propietario oyó la capa de respiración actual (60 pulsos/min, aguda, en bucle de 8 s) y la juzga exagerada y nerviosa; el estudio de ciencia (docs/audio/estudio-ciencia.md) no halla evidencia de capas rítmicas para dormir y el de mercado (docs/audio/estudio-mercado.md) no encuentra ningún canal que las declare. SHUSH_E4 queda apagado por defecto: no activarlo.",
         "titulo": "Capa «shhh» rítmica a volumen bajo",
         "hipotesis": "El shush rítmico es lo que diferencia a la competencia que gana en horas y lo busca quien duerme a un bebé.",
-        "accion": "Mezclar un shush suave a unas 60 pulsaciones por minuto con la nana (volumen bajo, límite seguro para bebés) en un estreno, comparado con el siguiente sin él.",
+        "accion": "Listo en el montaje (29-oct, SHUSH_E4=1): ruido rosa filtrado a 1,5-6 kHz y modulado a 60 pulsaciones por minuto, a unos -30 LUFS (12 dB bajo la nana; el volumen total del vídeo no cambia, -17,3 frente a -17,1 LUFS). Se prueba en un estreno y se compara con el siguiente sin él.",
         "metrica": "ret_60s y seg_por_visita",
         "criterio": "+5 puntos de ret_60s con mezcla de fuentes parecida",
         "lectura": "a los 7 días del estreno"
@@ -251,8 +253,39 @@
         "metrica": "fuente «Shorts» y suscriptores",
         "criterio": "efecto medible a las 3 semanas, si no se deja",
         "lectura": "2026-11-27"
+      },
+      {
+        "id": "E7",
+        "estado": "propuesto",
+        "titulo": "Audio nuevo 1: nana cantada, sin capa de respiración (estreno extra entre semana)",
+        "hipotesis": "Llega público desde canciones cantadas y se encuentra una nana sin letra (inferencia, no probada); el 68 % de los 44 vídeos de dormir más vistos del nicho son cantados.",
+        "accion": "Remezclar una reserva con una nana cantada de Suno (sin respiración y con ARRANQUE_E3) y estrenarla entre el 2 y el 5-nov. Animal por confirmar con el propietario (candidata: Gatitos 4 min de reserva, FoZr4gtx6pc, aunque coincide con el Gatitos de 9 min del 6-nov y el maratón del 9-nov). Registrar el audio en data/audio_por_video.csv.",
+        "metrica": "ret_20s, ret_60s, seg_por_visita y vistas por recomendados",
+        "criterio": "ret_20s ≥ 58 % y +5 puntos en ret_60s con ≥ 300 vistas y mezcla de fuentes parecida; 52-58 % = inconcluso (repetir en otro animal); < 52 % = descartar",
+        "lectura": "7 días tras el estreno"
+      },
+      {
+        "id": "E8",
+        "estado": "propuesto",
+        "titulo": "Audio nuevo 2: nana instrumental reconocible, sin capa de respiración (Cerditos, 13-nov)",
+        "hipotesis": "Si lo que falla es la respiración y no la falta de letra, una nana instrumental limpia basta.",
+        "accion": "Remezclar Cerditos (cerditos_reserva, 2:56) con una nana instrumental nueva de Suno sin respiración, subirla como vídeo nuevo, programarla el 13-nov y borrar el programado antiguo.",
+        "metrica": "igual que E7",
+        "criterio": "igual que E7",
+        "lectura": "2026-11-20"
+      },
+      {
+        "id": "E9",
+        "estado": "propuesto",
+        "titulo": "Réplica de la candidata ganadora en dos animales más (Ovejitas 20-nov, Patitos 27-nov)",
+        "hipotesis": "Con n=1 no se distingue formato de suerte (Koalas 584 y Ovejitas 0 vistas por recomendados con el mismo formato).",
+        "accion": "Ovejitas (20-nov) con la misma candidata que E7 y Patitos (27-nov) con la que gane entre E7 y E8, ambas sin respiración, remezcladas desde las reservas de 2:56.",
+        "metrica": "igual que E7",
+        "criterio": "una candidata solo se hace estándar si supera el criterio de E7 en al menos dos animales distintos",
+        "lectura": "2026-11-27 y 2026-12-04"
       }
     ],
+    "regla_de_salida_audio": "Máximo tres pruebas de audio. Si ninguna supera la línea base (45,8-57,4 % a 20 s en los seis vídeos del 28-oct) en dos animales, el problema no es la música y se pasa a otras palancas (promesa, arranque, miniatura). Los vídeos ya públicos no se tocan y el audio anterior se conserva.",
     "regla_de_lectura": "Un cambio solo se da por bueno si mejora la retención con una mezcla de fuentes parecida (columnas pct_recomendados y pct_busqueda): si el vídeo cambia de dónde llega el público, no se puede atribuir."
   },
   "retencion_diaria": [
@@ -602,8 +635,8 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-10-28T23:00:01Z",
-        "evento": "push"
+        "fecha": "2026-10-29T14:32:51Z",
+        "evento": "schedule"
       }
     },
     {
@@ -731,12 +764,12 @@
     "horas_365d": 1095.9,
     "pct_objetivo": 27.4,
     "faltan_h": 2904.1,
-    "horas_28d": 42.9,
-    "horas_7d": 4.3,
-    "ritmo_anual_h": 559,
-    "veces_hasta_objetivo": 7.2,
+    "horas_28d": 42.0,
+    "horas_7d": 3.5,
+    "ritmo_anual_h": 548,
+    "veces_hasta_objetivo": 7.3,
     "horas_mes_necesarias": 333,
-    "seg_por_vista_28d": 65,
+    "seg_por_vista_28d": 64,
     "meses": [
       {
         "mes": "2026-01",
@@ -824,9 +857,9 @@
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1017,
-        "horas": 30.2,
-        "seg_por_vista": 112
+        "vistas": 1014,
+        "horas": 30.1,
+        "seg_por_vista": 113
       },
       {
         "nombre": "Listas de reproducción",
@@ -1096,7 +1129,7 @@
     "titulo": "🦉 Búhos Durmiendo en su Nido (10 min) 😴 | Música para Dormir Bebés",
     "publicado": "2026-10-27T00:00:32Z",
     "url": "https://www.youtube.com/watch?v=OtJUqYl74ME",
-    "visitas_totales": 669,
+    "visitas_totales": 704,
     "visitas_diarias": [],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
