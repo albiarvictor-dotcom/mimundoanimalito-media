@@ -1,8 +1,8 @@
 {
-  "actualizado_utc": "2026-11-01T14:24:20Z",
+  "actualizado_utc": "2026-11-02T17:18:13Z",
   "datos_youtube": true,
   "franja_estreno": {
-    "dia": "jueves",
+    "dia": "viernes",
     "hora_local": 18,
     "zona": "America/Mexico_City"
   },
@@ -35,43 +35,43 @@
     {
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
-      "valor": "1.110,7 de 4.000 h (27,8 %)",
-      "detalle": "Últimas 4 semanas: 54,5 h. Hacen falta unas 333 h al mes.",
+      "valor": "1.112,2 de 4.000 h (27,8 %)",
+      "detalle": "Últimas 4 semanas: 55,5 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
       "id": "seg_por_vista",
       "titulo": "Segundos vistos por visita (4 semanas)",
-      "valor": "64 s",
+      "valor": "65 s",
       "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 34 s.",
       "estado": "atencion"
     },
     {
       "id": "plan_retencion",
       "titulo": "Retención a 20 s (plan de retención)",
-      "valor": "50,9 % · meta 58 % · base 50,8 %",
-      "detalle": "A 10 s: 71,8 %. A 60 s: 20,6 % (meta 28 %). 6 vídeos medidos el 2026-10-31; recomendados 86 % de las vistas (-0,2 pp frente a la medición anterior).",
+      "valor": "51,0 % · meta 58 % · base 50,8 %",
+      "detalle": "A 10 s: 71,9 %. A 60 s: 20,7 % (meta 28 %). 6 vídeos medidos el 2026-11-01; recomendados 86 % de las vistas (+0,1 pp frente a la medición anterior).",
       "estado": "en_curso"
     },
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
-      "valor": "Gatitos en 4 días (6/11)",
-      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (25 días de colchón) y 2 en reserva sin fecha.",
+      "valor": "Gatitos en 3 días (6/11)",
+      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (24 días de colchón) y 2 en reserva sin fecha.",
       "estado": "ok"
     },
     {
       "id": "test_largo",
       "titulo": "Prueba del formato largo: Búhos 10 min",
-      "valor": "728 vistas · 65 s por visita · 53,1 % a los 20 s",
+      "valor": "741 vistas · 67 s por visita · 53,7 % a los 20 s",
       "detalle": "Se lee el 3/11. A los 7 días: al menos 300 vistas por recomendados y más del 55 % de retención a los 20 s para hacer 3 vídeos largos más.",
       "estado": "en_curso"
     },
     {
       "id": "actividad",
       "titulo": "Actividad de los agentes",
-      "valor": "9 tarea(s) en 7 días",
-      "detalle": "Última: Medición diaria de retención (2026-10-31): 6 vídeos medidos el 2026-10-31: retención media 71.8 % a 10 s, 50.9 % a 20 s y 20.6 % a 60 s (meta del plan: 58 % y 28 %).",
+      "valor": "10 tarea(s) en 7 días",
+      "detalle": "Última: Medición diaria de retención (2026-11-01): 6 vídeos medidos el 2026-11-01: retención media 71.9 % a 10 s, 51.0 % a 20 s y 20.7 % a 60 s (meta del plan: 58 % y 28 %).",
       "estado": "ok"
     },
     {
@@ -328,6 +328,16 @@
       "seg_por_visita": 42.3,
       "pct_recomendados": 85.9,
       "pct_busqueda_y_listas": 4.9
+    },
+    {
+      "fecha": "2026-11-01",
+      "videos": 6,
+      "ret_10s": 71.9,
+      "ret_20s": 51.0,
+      "ret_60s": 20.7,
+      "seg_por_visita": 42.8,
+      "pct_recomendados": 85.8,
+      "pct_busqueda_y_listas": 5.0
     }
   ],
   "competencia": {
@@ -475,6 +485,12 @@
   },
   "actividad_agentes": [
     {
+      "fecha_utc": "2026-11-01T14:53:23Z",
+      "agente": "Medición diaria de retención",
+      "resultado": "ok",
+      "resumen": "6 vídeos medidos el 2026-11-01: retención media 71.9 % a 10 s, 51.0 % a 20 s y 20.7 % a 60 s (meta del plan: 58 % y 28 %)."
+    },
+    {
       "fecha_utc": "2026-10-31T14:26:38Z",
       "agente": "Medición diaria de retención",
       "resultado": "ok",
@@ -618,7 +634,7 @@
       "ultima_actividad": "2026-10-26T20:19:25Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-31T19:06:23Z",
+        "fecha": "2026-11-01T19:22:59Z",
         "evento": "schedule"
       }
     },
@@ -636,10 +652,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-10-25",
+      "ultima_actividad": "2026-11-01",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-25T13:38:14Z",
+        "fecha": "2026-11-01T15:52:43Z",
         "evento": "schedule"
       }
     },
@@ -656,10 +672,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-10-28",
+      "ultima_actividad": "2026-11-01",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-25T13:38:14Z",
+        "fecha": "2026-11-01T15:52:43Z",
         "evento": "schedule"
       }
     },
@@ -695,7 +711,7 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-11-01T14:23:47Z",
+        "fecha": "2026-11-02T17:17:39Z",
         "evento": "schedule"
       }
     },
@@ -763,10 +779,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-10-31T14:26:38Z",
+      "ultima_actividad": "2026-11-01T14:53:23Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-31T14:26:44Z",
+        "fecha": "2026-11-01T14:53:28Z",
         "evento": "schedule"
       }
     },
@@ -784,10 +800,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-10-31T14:26:38Z",
+      "ultima_actividad": "2026-11-01T14:53:23Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-31T14:26:44Z",
+        "fecha": "2026-11-01T14:53:28Z",
         "evento": "schedule"
       }
     },
@@ -805,10 +821,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-10-31",
+      "ultima_actividad": "2026-11-01",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-10-31T14:26:44Z",
+        "fecha": "2026-11-01T14:53:28Z",
         "evento": "schedule"
       }
     }
@@ -821,15 +837,15 @@
   },
   "horas": {
     "objetivo_h": 4000,
-    "horas_365d": 1110.7,
+    "horas_365d": 1112.2,
     "pct_objetivo": 27.8,
-    "faltan_h": 2889.3,
-    "horas_28d": 54.5,
-    "horas_7d": 16.5,
-    "ritmo_anual_h": 710,
-    "veces_hasta_objetivo": 5.6,
+    "faltan_h": 2887.8,
+    "horas_28d": 55.5,
+    "horas_7d": 17.2,
+    "ritmo_anual_h": 724,
+    "veces_hasta_objetivo": 5.5,
     "horas_mes_necesarias": 333,
-    "seg_por_vista_28d": 64,
+    "seg_por_vista_28d": 65,
     "meses": [
       {
         "mes": "2026-01",
@@ -878,32 +894,32 @@
       },
       {
         "mes": "2026-10",
-        "vistas": 3130,
-        "horas": 56.6
+        "vistas": 3161,
+        "horas": 58.1
       }
     ],
     "por_formato": [
       {
         "formato": "hasta 5 min",
         "videos": 37,
-        "vistas": 51548,
-        "horas": 480.3,
+        "vistas": 51563,
+        "horas": 480.9,
         "seg_por_vista": 34,
         "horas_por_video": 13.0
       },
       {
         "formato": "de 6 a 15 min",
         "videos": 7,
-        "vistas": 48161,
-        "horas": 235.9,
+        "vistas": 48176,
+        "horas": 236.9,
         "seg_por_vista": 18,
-        "horas_por_video": 33.7
+        "horas_por_video": 33.8
       },
       {
         "formato": "más de 15 min",
         "videos": 6,
-        "vistas": 18193,
-        "horas": 392.7,
+        "vistas": 18194,
+        "horas": 392.8,
         "seg_por_vista": 78,
         "horas_por_video": 65.5
       }
@@ -911,45 +927,45 @@
     "por_fuente_90d": [
       {
         "nombre": "Recomendados",
-        "vistas": 6329,
+        "vistas": 6328,
         "horas": 76.5,
         "seg_por_vista": 43
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1034,
-        "horas": 31.7,
-        "seg_por_vista": 116
+        "vistas": 1037,
+        "horas": 32.1,
+        "seg_por_vista": 117
       },
       {
         "nombre": "Listas de reproducción",
-        "vistas": 202,
-        "horas": 17.8,
-        "seg_por_vista": 323
+        "vistas": 211,
+        "horas": 18.3,
+        "seg_por_vista": 318
       },
       {
         "nombre": "Otras páginas de YouTube",
-        "vistas": 233,
+        "vistas": 235,
         "horas": 4.1,
         "seg_por_vista": 63
       },
       {
         "nombre": "Suscriptores",
-        "vistas": 282,
+        "vistas": 280,
         "horas": 2.4,
         "seg_por_vista": 30
       },
       {
         "nombre": "Página del canal",
-        "vistas": 142,
+        "vistas": 140,
         "horas": 2.4,
-        "seg_por_vista": 64
+        "seg_por_vista": 65
       },
       {
         "nombre": "Sin enlace",
-        "vistas": 79,
-        "horas": 1.2,
-        "seg_por_vista": 57
+        "vistas": 80,
+        "horas": 1.4,
+        "seg_por_vista": 60
       },
       {
         "nombre": "Enlaces externos",
@@ -973,25 +989,25 @@
     "por_dispositivo_365d": [
       {
         "nombre": "Móvil",
-        "vistas": 71939,
-        "horas": 873.6,
+        "vistas": 71957,
+        "horas": 874.2,
         "seg_por_vista": 48
       },
       {
         "nombre": "Televisión",
-        "vistas": 42887,
-        "horas": 195.0,
+        "vistas": 42894,
+        "horas": 195.4,
         "seg_por_vista": 93
       },
       {
         "nombre": "Ordenador",
-        "vistas": 1282,
-        "horas": 23.7,
-        "seg_por_vista": 109
+        "vistas": 1286,
+        "horas": 24.2,
+        "seg_por_vista": 110
       },
       {
         "nombre": "Tableta",
-        "vistas": 2185,
+        "vistas": 2186,
         "horas": 18.1,
         "seg_por_vista": 40
       }
@@ -1001,8 +1017,8 @@
         "titulo": "🐻 Ositos Durmiendo 😴 | Canción Relajante para Dormir Bebés - Ruido Blanco | Mi Mundo Animalito",
         "publicado": "2026-03-16",
         "duracion_s": 1216,
-        "vistas": 17414,
-        "minutos": 22165,
+        "vistas": 17415,
+        "minutos": 22166,
         "horas": 369.4,
         "seg_por_vista": 76
       },
@@ -1010,18 +1026,18 @@
         "titulo": "🐱 Gatitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-09",
         "duracion_s": 246,
-        "vistas": 23312,
-        "minutos": 13979,
-        "horas": 233.0,
+        "vistas": 23313,
+        "minutos": 13983,
+        "horas": 233.1,
         "seg_por_vista": 40
       },
       {
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal (10 min) 😴 | Ruido Blanco y Música Relajante para Bebés",
         "publicado": "2026-02-05",
         "duracion_s": 585,
-        "vistas": 46051,
-        "minutos": 10168,
-        "horas": 169.5,
+        "vistas": 46053,
+        "minutos": 10178,
+        "horas": 169.6,
         "seg_por_vista": 53
       },
       {
@@ -1037,10 +1053,10 @@
         "titulo": "🐰 Conejitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-05",
         "duracion_s": 229,
-        "vistas": 2661,
-        "minutos": 2375,
-        "horas": 39.6,
-        "seg_por_vista": 59
+        "vistas": 2670,
+        "minutos": 2403,
+        "horas": 40.0,
+        "seg_por_vista": 60
       },
       {
         "titulo": "🐨 Koalas Familia ❤️ ESPECIAL SAN VALENTÍN 4MIN 😴 | Mi Mundo Animalito",
@@ -1082,10 +1098,10 @@
         "titulo": "🦉 Búhos Durmiendo en su Nido (10 min) 😴 | Música para Dormir Bebés",
         "publicado": "2026-10-27",
         "duracion_s": 601,
-        "vistas": 733,
-        "minutos": 800,
-        "horas": 13.3,
-        "seg_por_vista": 65
+        "vistas": 746,
+        "minutos": 848,
+        "horas": 14.1,
+        "seg_por_vista": 68
       }
     ],
     "nota": "Horas reales de YouTube Analytics. Ojo: el total de 12 meses es una ventana móvil, así que los meses buenos del principio del año irán saliendo de la cuenta."
@@ -1177,7 +1193,7 @@
     "titulo": "🦉 Búhos Durmiendo en su Nido (10 min) 😴 | Música para Dormir Bebés",
     "publicado": "2026-10-27T00:00:32Z",
     "url": "https://www.youtube.com/watch?v=OtJUqYl74ME",
-    "visitas_totales": 747,
+    "visitas_totales": 749,
     "visitas_diarias": [
       {
         "dia": "2026-10-27",
@@ -1190,6 +1206,10 @@
       {
         "dia": "2026-10-29",
         "vistas": 37
+      },
+      {
+        "dia": "2026-10-30",
+        "vistas": 13
       }
     ],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
