@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-11-04T15:37:26Z",
+  "actualizado_utc": "2026-11-05T15:40:52Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -35,14 +35,14 @@
     {
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
-      "valor": "1.113,8 de 4.000 h (27,8 %)",
-      "detalle": "Últimas 4 semanas: 55,5 h. Hacen falta unas 333 h al mes.",
+      "valor": "1.114,1 de 4.000 h (27,9 %)",
+      "detalle": "Últimas 4 semanas: 54,4 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
       "id": "seg_por_vista",
       "titulo": "Segundos vistos por visita (4 semanas)",
-      "valor": "66 s",
+      "valor": "65 s",
       "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 34 s.",
       "estado": "atencion"
     },
@@ -50,14 +50,14 @@
       "id": "plan_retencion",
       "titulo": "Retención a 20 s (plan de retención)",
       "valor": "52,8 % · meta 58 % · base 50,8 %",
-      "detalle": "A 10 s: 74,7 %. A 60 s: 23,6 % (meta 28 %). 4 vídeos medidos el 2026-11-03; recomendados 83 % de las vistas (+0,0 pp frente a la medición anterior).",
+      "detalle": "A 10 s: 74,7 %. A 60 s: 23,7 % (meta 28 %). 4 vídeos medidos el 2026-11-04; recomendados 83 % de las vistas (+0,0 pp frente a la medición anterior).",
       "estado": "en_curso"
     },
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
-      "valor": "Gatitos mañana (6/11)",
-      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (22 días de colchón) y 2 en reserva sin fecha.",
+      "valor": "Gatitos en 8 h (6/11)",
+      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (21 días de colchón) y 2 en reserva sin fecha.",
       "estado": "ok"
     },
     {
@@ -71,7 +71,7 @@
       "id": "actividad",
       "titulo": "Actividad de los agentes",
       "valor": "10 tarea(s) en 7 días",
-      "detalle": "Última: Medición diaria de retención (2026-11-03): 4 vídeos medidos el 2026-11-03: retención media 74.7 % a 10 s, 52.8 % a 20 s y 23.6 % a 60 s (meta del plan: 58 % y 28 %).",
+      "detalle": "Última: Medición diaria de retención (2026-11-04): 4 vídeos medidos el 2026-11-04: retención media 74.7 % a 10 s, 52.8 % a 20 s y 23.7 % a 60 s (meta del plan: 58 % y 28 %).",
       "estado": "ok"
     },
     {
@@ -358,6 +358,16 @@
       "seg_por_visita": 48.0,
       "pct_recomendados": 83.3,
       "pct_busqueda_y_listas": 6.8
+    },
+    {
+      "fecha": "2026-11-04",
+      "videos": 4,
+      "ret_10s": 74.7,
+      "ret_20s": 52.8,
+      "ret_60s": 23.7,
+      "seg_por_visita": 48.0,
+      "pct_recomendados": 83.2,
+      "pct_busqueda_y_listas": 6.8
     }
   ],
   "competencia": {
@@ -505,6 +515,18 @@
   },
   "actividad_agentes": [
     {
+      "fecha_utc": "2026-11-04T16:07:46Z",
+      "agente": "Medición diaria de retención",
+      "resultado": "ok",
+      "resumen": "4 vídeos medidos el 2026-11-04: retención media 74.7 % a 10 s, 52.8 % a 20 s y 23.7 % a 60 s (meta del plan: 58 % y 28 %)."
+    },
+    {
+      "fecha_utc": "2026-11-04T16:07:38Z",
+      "agente": "Propuesta de mejoras",
+      "resultado": "ok",
+      "resumen": "Propuesta nueva: propuesta_mejoras_2026-11-04.md."
+    },
+    {
       "fecha_utc": "2026-11-03T16:01:41Z",
       "agente": "Medición diaria de retención",
       "resultado": "ok",
@@ -581,12 +603,6 @@
       "agente": "Lectura de horas y retención",
       "resultado": "ok",
       "resumen": "42.6 h en 28 días, 3.4 h la última semana; ritmo anual 556 h frente a 4.000 (×7.2 por debajo)."
-    },
-    {
-      "fecha_utc": "2026-10-27T23:07:20Z",
-      "agente": "Pulso de la competencia",
-      "resultado": "ok",
-      "resumen": "10 canales vigilados. 5 de 10 canales de referencia subieron algún vídeo en los últimos 7 días; 3 subieron dos o más (nosotros: uno por semana)."
     }
   ],
   "agentes": [
@@ -678,7 +694,7 @@
       "ultima_actividad": "2026-10-26T20:19:25Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-03T20:48:36Z",
+        "fecha": "2026-11-04T21:05:50Z",
         "evento": "schedule"
       }
     },
@@ -716,7 +732,7 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-01",
+      "ultima_actividad": "2026-11-04",
       "ultimo_run": {
         "estado": "success",
         "fecha": "2026-11-01T15:52:43Z",
@@ -755,7 +771,7 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-11-04T15:36:47Z",
+        "fecha": "2026-11-05T15:40:23Z",
         "evento": "schedule"
       }
     },
@@ -823,10 +839,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-03T16:01:41Z",
+      "ultima_actividad": "2026-11-04T16:07:46Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-03T16:01:49Z",
+        "fecha": "2026-11-04T16:27:49Z",
         "evento": "schedule"
       }
     },
@@ -844,10 +860,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-03T16:01:41Z",
+      "ultima_actividad": "2026-11-04T16:07:46Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-03T16:01:49Z",
+        "fecha": "2026-11-04T16:27:49Z",
         "evento": "schedule"
       }
     },
@@ -865,10 +881,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-03",
+      "ultima_actividad": "2026-11-04",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-03T16:01:49Z",
+        "fecha": "2026-11-04T16:27:49Z",
         "evento": "schedule"
       }
     }
@@ -881,15 +897,15 @@
   },
   "horas": {
     "objetivo_h": 4000,
-    "horas_365d": 1113.8,
-    "pct_objetivo": 27.8,
-    "faltan_h": 2886.2,
-    "horas_28d": 55.5,
-    "horas_7d": 6.0,
-    "ritmo_anual_h": 723,
-    "veces_hasta_objetivo": 5.5,
+    "horas_365d": 1114.1,
+    "pct_objetivo": 27.9,
+    "faltan_h": 2885.9,
+    "horas_28d": 54.4,
+    "horas_7d": 5.0,
+    "ritmo_anual_h": 709,
+    "veces_hasta_objetivo": 5.6,
     "horas_mes_necesarias": 333,
-    "seg_por_vista_28d": 66,
+    "seg_por_vista_28d": 65,
     "meses": [
       {
         "mes": "2026-01",
@@ -938,28 +954,28 @@
       },
       {
         "mes": "2026-10",
-        "vistas": 3178,
+        "vistas": 3180,
         "horas": 58.9
       },
       {
         "mes": "2026-11",
-        "vistas": 17,
-        "horas": 0.8
+        "vistas": 32,
+        "horas": 1.1
       }
     ],
     "por_formato": [
       {
         "formato": "hasta 5 min",
         "videos": 37,
-        "vistas": 51592,
-        "horas": 481.9,
+        "vistas": 51605,
+        "horas": 482.2,
         "seg_por_vista": 34,
         "horas_por_video": 13.0
       },
       {
         "formato": "de 6 a 15 min",
         "videos": 7,
-        "vistas": 48183,
+        "vistas": 48184,
         "horas": 237.3,
         "seg_por_vista": 18,
         "horas_por_video": 33.9
@@ -967,7 +983,7 @@
       {
         "formato": "más de 15 min",
         "videos": 6,
-        "vistas": 18194,
+        "vistas": 18195,
         "horas": 392.8,
         "seg_por_vista": 78,
         "horas_por_video": 65.5
@@ -982,21 +998,21 @@
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1051,
-        "horas": 32.7,
+        "vistas": 1062,
+        "horas": 33.0,
         "seg_por_vista": 118
       },
       {
         "nombre": "Listas de reproducción",
-        "vistas": 211,
-        "horas": 18.5,
-        "seg_por_vista": 321
+        "vistas": 208,
+        "horas": 18.1,
+        "seg_por_vista": 318
       },
       {
         "nombre": "Otras páginas de YouTube",
         "vistas": 235,
-        "horas": 4.1,
-        "seg_por_vista": 63
+        "horas": 4.2,
+        "seg_por_vista": 65
       },
       {
         "nombre": "Página del canal",
@@ -1018,9 +1034,9 @@
       },
       {
         "nombre": "Enlaces externos",
-        "vistas": 46,
+        "vistas": 47,
         "horas": 0.9,
-        "seg_por_vista": 67
+        "seg_por_vista": 66
       },
       {
         "nombre": "Shorts",
@@ -1032,14 +1048,14 @@
     "por_dispositivo_365d": [
       {
         "nombre": "Móvil",
-        "vistas": 71983,
-        "horas": 875.4,
+        "vistas": 71993,
+        "horas": 875.5,
         "seg_por_vista": 48
       },
       {
         "nombre": "Televisión",
-        "vistas": 42901,
-        "horas": 195.6,
+        "vistas": 42906,
+        "horas": 195.8,
         "seg_por_vista": 93
       },
       {
@@ -1078,7 +1094,7 @@
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal (10 min) 😴 | Ruido Blanco y Música Relajante para Bebés",
         "publicado": "2026-02-05",
         "duracion_s": 585,
-        "vistas": 46054,
+        "vistas": 46055,
         "minutos": 10178,
         "horas": 169.6,
         "seg_por_vista": 53
@@ -1087,18 +1103,18 @@
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal 💤| Música Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-21",
         "duracion_s": 241,
-        "vistas": 7553,
-        "minutos": 4298,
-        "horas": 71.6,
+        "vistas": 7555,
+        "minutos": 4303,
+        "horas": 71.7,
         "seg_por_vista": 37
       },
       {
         "titulo": "🐰 Conejitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-05",
         "duracion_s": 229,
-        "vistas": 2687,
-        "minutos": 2444,
-        "horas": 40.7,
+        "vistas": 2689,
+        "minutos": 2448,
+        "horas": 40.8,
         "seg_por_vista": 60
       },
       {
@@ -1252,6 +1268,10 @@
       {
         "dia": "2026-11-01",
         "vistas": 2
+      },
+      {
+        "dia": "2026-11-02",
+        "vistas": 0
       }
     ],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
