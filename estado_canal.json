@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-11-06T15:14:51Z",
+  "actualizado_utc": "2026-11-06T17:46:41Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -49,16 +49,16 @@
     {
       "id": "plan_retencion",
       "titulo": "Retención a 20 s (plan de retención)",
-      "valor": "51,2 % · meta 58 % · base 50,8 %",
-      "detalle": "A 10 s: 73,9 %. A 60 s: 22,2 % (meta 28 %). 3 vídeos medidos el 2026-11-05; recomendados 80 % de las vistas (-1,6 pp frente a la medición anterior).",
+      "valor": "52,8 % · meta 58 % · base 50,8 %",
+      "detalle": "A 10 s: 74,7 %. A 60 s: 23,7 % (meta 28 %). 4 vídeos medidos el 2026-11-06; recomendados 83 % de las vistas (+1,6 pp frente a la medición anterior).",
       "estado": "en_curso"
     },
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
-      "valor": "Cerditos en 6 días (13/11)",
-      "detalle": "3 estreno(s) programado(s) hasta el 27/11 (20 días de colchón) y 2 en reserva sin fecha.",
-      "estado": "ok"
+      "valor": "Gatitos mañana (8/11)",
+      "detalle": "5 estreno(s) programado(s) hasta el 16/11 (9 días de colchón).",
+      "estado": "atencion"
     },
     {
       "id": "test_largo",
@@ -70,8 +70,8 @@
     {
       "id": "actividad",
       "titulo": "Actividad de los agentes",
-      "valor": "10 tarea(s) en 7 días",
-      "detalle": "Última: Medición diaria de retención (2026-11-05): 3 vídeos medidos el 2026-11-05: retención media 73.9 % a 10 s, 51.2 % a 20 s y 22.2 % a 60 s (meta del plan: 58 % y 28 %).",
+      "valor": "12 tarea(s) en 7 días",
+      "detalle": "Última: Medición diaria de retención (2026-11-06): 4 vídeos medidos el 2026-11-06: retención media 74.7 % a 10 s, 52.8 % a 20 s y 23.7 % a 60 s (meta del plan: 58 % y 28 %).",
       "estado": "ok"
     },
     {
@@ -258,8 +258,9 @@
       },
       {
         "id": "E7",
-        "estado": "subido_privado",
-        "video_id": "V9gTBFRCY30",
+        "estado": "en_curso",
+        "video_id": "oUSkHHy5Ch8",
+        "video_id_reserva_4min": "V9gTBFRCY30",
         "nota_1_nov": "Subido el 1-nov (privado, sin programar): Gatitos 4:00 con cantada_2 de Suno (acento latino, sin respiración, -16,5 LUFS). 5-nov: se quitó su fecha (privado, sin programar) porque la nana cantada pasó al Gatitos de 9 min de las 18:00 (oUSkHHy5Ch8, estreno 5-nov 18:00 México; lectura 12-nov, comparado con el Búhos 10 min) y al maratón del 7-nov (CvNw-GQv6yY). Este 4 min queda de reserva. Pendiente: que el propietario borre FoZr4gtx6pc, C4dCq7jit0s y BRgo3W1kuy4.",
         "titulo": "Audio nuevo 1: nana cantada, sin capa de respiración (estreno extra entre semana)",
         "hipotesis": "Llega público desde canciones cantadas y se encuentra una nana sin letra (inferencia, no probada); el 68 % de los 44 vídeos de dormir más vistos del nicho son cantados.",
@@ -271,7 +272,8 @@
       },
       {
         "id": "E8",
-        "estado": "propuesto",
+        "estado": "aplazado",
+        "nota_6_nov": "El plan Pro de Suno acabó el 3-nov sin generar la instrumental (sin renovar, lo nuevo no tendría derechos comerciales). Cerditos pasó a llevar la nana cantada en la semana de estrenos cada 2 días (E10). E8 solo se hace si el propietario renueva Suno.",
         "titulo": "Audio nuevo 2: nana instrumental reconocible, sin capa de respiración (Cerditos, 13-nov)",
         "hipotesis": "Si lo que falla es la respiración y no la falta de letra, una nana instrumental limpia basta.",
         "idioma": "Sin letra: contraste neutro frente a E7 (sirve a todos los países). Pendiente de decidir con el propietario si el título pasa a «Música para Dormir Bebés» sin «Canciones de Cuna», para que prometa lo que suena; si se cambia, anotarlo como variable añadida.",
@@ -282,13 +284,24 @@
       },
       {
         "id": "E9",
-        "estado": "propuesto",
-        "titulo": "Réplica de la candidata ganadora en dos animales más (Ovejitas 20-nov, Patitos 27-nov)",
+        "estado": "en_curso",
+        "nota_6_nov": "Adelantado por la semana E10: Cerditos (RhWHNB23G7A, 9-nov), Ovejitas (xhrpKweZG7o, 11-nov) y Patitos (Kp8gY5Q6AK8, 13-nov) con la misma nana cantada que E7, remezclados desde las reservas de 2:56 (0 créditos de Sjinn). Los antiguos con la respiración quedan privados y sin fecha.",
+        "titulo": "Réplica de la candidata ganadora en dos animales más (Cerditos 9-nov, Ovejitas 11-nov, Patitos 13-nov)",
         "hipotesis": "Con n=1 no se distingue formato de suerte (Koalas 584 y Ovejitas 0 vistas por recomendados con el mismo formato).",
         "accion": "Ovejitas (20-nov) con la misma candidata que E7 y Patitos (27-nov) con la que gane entre E7 y E8, ambas sin respiración, remezcladas desde las reservas de 2:56.",
         "metrica": "igual que E7",
         "criterio": "una candidata solo se hace estándar si supera el criterio de E7 en al menos dos animales distintos",
-        "lectura": "2026-11-27 y 2026-12-04"
+        "lectura": "2026-11-16, 2026-11-18 y 2026-11-20"
+      },
+      {
+        "id": "E10",
+        "estado": "en_curso",
+        "titulo": "Estreno cada 2 días durante 8-10 días",
+        "hipotesis": "Tres estrenos de 35 días dieron el 58 % de las vistas y la mitad de las horas; entre estrenos el canal baja a 11-50 vistas al día. Más estrenos seguidos deberían dar más picos (solo 3 de 5 estrenos de 4 min despegaron).",
+        "accion": "Estrenos a las 18:00 de México: 5-nov Gatitos 9 min, 7-nov maratón de Gatitos 2 h, 9-nov Cerditos, 11-nov Ovejitas, 13-nov Patitos y 15-nov Gatitos 4 min, todos con la nana cantada (reservas remezcladas, 0 créditos); Shorts 2 h después de cada uno salvo el último.",
+        "metrica": "vistas y horas por día del canal (YouTube Analytics por día)",
+        "criterio": "≥ 200 vistas al día de media y ≥ 28 h en los 8 días del 5 al 13-nov, frente a la base de 95 vistas al día y 13,8 h a la semana (35 días hasta el 3-nov)",
+        "lectura": "2026-11-14 (y 2026-11-16 con el último estreno)"
       }
     ],
     "regla_de_salida_audio": "Máximo tres pruebas de audio. Si ninguna supera la línea base (45,8-57,4 % a 20 s en los seis vídeos del 28-oct) en dos animales, el problema no es la música y se pasa a otras palancas (promesa, arranque, miniatura). Los vídeos ya públicos no se tocan y el audio anterior se conserva.",
@@ -384,6 +397,16 @@
       "seg_por_visita": 46.0,
       "pct_recomendados": 79.7,
       "pct_busqueda_y_listas": 8.9
+    },
+    {
+      "fecha": "2026-11-06",
+      "videos": 4,
+      "ret_10s": 74.7,
+      "ret_20s": 52.8,
+      "ret_60s": 23.7,
+      "seg_por_visita": 48.0,
+      "pct_recomendados": 83.2,
+      "pct_busqueda_y_listas": 6.8
     }
   ],
   "competencia": {
@@ -531,6 +554,18 @@
   },
   "actividad_agentes": [
     {
+      "fecha_utc": "2026-11-06T15:49:52Z",
+      "agente": "Medición diaria de retención",
+      "resultado": "ok",
+      "resumen": "4 vídeos medidos el 2026-11-06: retención media 74.7 % a 10 s, 52.8 % a 20 s y 23.7 % a 60 s (meta del plan: 58 % y 28 %)."
+    },
+    {
+      "fecha_utc": "2026-11-06T15:49:42Z",
+      "agente": "Lectura de horas y retención",
+      "resultado": "ok",
+      "resumen": "54.9 h en 28 días, 3.8 h la última semana; ritmo anual 715 h frente a 4.000 (×5.6 por debajo)."
+    },
+    {
       "fecha_utc": "2026-11-05T16:21:23Z",
       "agente": "Medición diaria de retención",
       "resultado": "ok",
@@ -607,18 +642,6 @@
       "agente": "Medición diaria de retención",
       "resultado": "ok",
       "resumen": "6 vídeos medidos el 2026-10-29: retención media 70.7 % a 10 s, 50.8 % a 20 s y 20.0 % a 60 s (meta del plan: 58 % y 28 %)."
-    },
-    {
-      "fecha_utc": "2026-10-29T15:06:01Z",
-      "agente": "Pulso de la competencia",
-      "resultado": "ok",
-      "resumen": "10 canales vigilados. 5 de 10 canales de referencia subieron algún vídeo en los últimos 7 días; 3 subieron dos o más (nosotros: uno por semana)."
-    },
-    {
-      "fecha_utc": "2026-10-28T14:58:33Z",
-      "agente": "Propuesta de mejoras",
-      "resultado": "ok",
-      "resumen": "Propuesta nueva: propuesta_mejoras_2026-10-28.md."
     }
   ],
   "agentes": [
@@ -787,8 +810,8 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-11-06T15:14:15Z",
-        "evento": "schedule"
+        "fecha": "2026-11-06T17:46:06Z",
+        "evento": "push"
       }
     },
     {
@@ -855,10 +878,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-05T16:21:23Z",
+      "ultima_actividad": "2026-11-06T15:49:52Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-05T16:21:29Z",
+        "fecha": "2026-11-06T15:49:58Z",
         "evento": "schedule"
       }
     },
@@ -876,10 +899,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-05T16:21:23Z",
+      "ultima_actividad": "2026-11-06T15:49:52Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-05T16:21:29Z",
+        "fecha": "2026-11-06T15:49:58Z",
         "evento": "schedule"
       }
     },
@@ -897,10 +920,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-05",
+      "ultima_actividad": "2026-11-06",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-05T16:21:29Z",
+        "fecha": "2026-11-06T15:49:58Z",
         "evento": "schedule"
       }
     }
@@ -1182,11 +1205,11 @@
     "nota": "Horas reales de YouTube Analytics. Ojo: el total de 12 meses es una ventana móvil, así que los meses buenos del principio del año irán saliendo de la cuenta."
   },
   "proximo_estreno": {
-    "animal": "Cerditos",
+    "animal": "Gatitos",
     "estado": "programado",
-    "duracion_min": 3,
-    "semana": "Sem44",
-    "estreno_utc": "2026-11-13T00:00:00Z"
+    "duracion_min": 120,
+    "semana": "Sem45",
+    "estreno_utc": "2026-11-08T00:00:00Z"
   },
   "animal_que_toca": {
     "animal": "Ardillas",
@@ -1194,39 +1217,39 @@
   },
   "calendario": [
     {
+      "animal": "Gatitos",
+      "estado": "programado",
+      "duracion_min": 120,
+      "semana": "Sem45",
+      "estreno_utc": "2026-11-08T00:00:00Z"
+    },
+    {
       "animal": "Cerditos",
       "estado": "programado",
       "duracion_min": 3,
-      "semana": "Sem44",
-      "estreno_utc": "2026-11-13T00:00:00Z"
+      "semana": "Sem45",
+      "estreno_utc": "2026-11-10T00:00:00Z"
     },
     {
       "animal": "Ovejitas",
       "estado": "programado",
       "duracion_min": 3,
-      "semana": "Sem44",
-      "estreno_utc": "2026-11-20T00:00:00Z"
+      "semana": "Sem45",
+      "estreno_utc": "2026-11-12T00:00:00Z"
     },
     {
       "animal": "Patitos",
       "estado": "programado",
       "duracion_min": 3,
-      "semana": "Sem44",
-      "estreno_utc": "2026-11-27T00:00:00Z"
-    },
-    {
-      "animal": "Gatitos",
-      "estado": "esperando_aprobacion",
-      "duracion_min": 4,
-      "semana": "Sem44",
-      "estreno_utc": null
-    },
-    {
-      "animal": "Gatitos",
-      "estado": "esperando_aprobacion",
-      "duracion_min": 120,
       "semana": "Sem45",
-      "estreno_utc": null
+      "estreno_utc": "2026-11-14T00:00:00Z"
+    },
+    {
+      "animal": "Gatitos",
+      "estado": "programado",
+      "duracion_min": 4,
+      "semana": "Sem46",
+      "estreno_utc": "2026-11-16T00:00:00Z"
     },
     {
       "animal": "Gatitos",
@@ -1252,14 +1275,9 @@
     "titulo": "🐱 Gatitos Durmiendo (9 min) 😴 | Música para Dormir Bebés",
     "publicado": "2026-11-06T00:00:09Z",
     "url": "https://www.youtube.com/watch?v=oUSkHHy5Ch8",
-    "visitas_totales": 74,
+    "visitas_totales": 155,
     "visitas_diarias": [],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
-  "avisos": [
-    {
-      "nivel": "info",
-      "texto": "2 vídeo(s) privado(s) esperando tu aprobación: Gatitos."
-    }
-  ]
+  "avisos": []
 }
