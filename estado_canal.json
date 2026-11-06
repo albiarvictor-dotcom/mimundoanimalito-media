@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-11-05T22:25:29Z",
+  "actualizado_utc": "2026-11-06T15:14:51Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -36,13 +36,13 @@
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
       "valor": "1.114,6 de 4.000 h (27,9 %)",
-      "detalle": "Últimas 4 semanas: 54,9 h. Hacen falta unas 333 h al mes.",
+      "detalle": "Últimas 4 semanas: 53,8 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
       "id": "seg_por_vista",
       "titulo": "Segundos vistos por visita (4 semanas)",
-      "valor": "65 s",
+      "valor": "64 s",
       "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 34 s.",
       "estado": "atencion"
     },
@@ -56,8 +56,8 @@
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
-      "valor": "Gatitos en 1 h (6/11)",
-      "detalle": "4 estreno(s) programado(s) hasta el 27/11 (21 días de colchón) y 2 en reserva sin fecha.",
+      "valor": "Cerditos en 6 días (13/11)",
+      "detalle": "3 estreno(s) programado(s) hasta el 27/11 (20 días de colchón) y 2 en reserva sin fecha.",
       "estado": "ok"
     },
     {
@@ -70,7 +70,7 @@
     {
       "id": "actividad",
       "titulo": "Actividad de los agentes",
-      "valor": "12 tarea(s) en 7 días",
+      "valor": "10 tarea(s) en 7 días",
       "detalle": "Última: Medición diaria de retención (2026-11-05): 3 vídeos medidos el 2026-11-05: retención media 73.9 % a 10 s, 51.2 % a 20 s y 22.2 % a 60 s (meta del plan: 58 % y 28 %).",
       "estado": "ok"
     },
@@ -637,7 +637,7 @@
       "gasta_creditos": true,
       "estado": "pausado",
       "detalle": "El cron de producción está en pausa (hay reserva de vídeos hasta el 27-nov).",
-      "ultima_actividad": "2026-10-25T22:15:00Z",
+      "ultima_actividad": "2026-11-05T22:29:00Z",
       "ultimo_run": {
         "estado": "failure",
         "fecha": "2026-10-25T22:18:07Z",
@@ -673,7 +673,7 @@
       "gasta_creditos": false,
       "estado": "en_espera",
       "detalle": "Se activa con la próxima producción.",
-      "ultima_actividad": "2026-10-25T22:15:00Z",
+      "ultima_actividad": "2026-11-05T22:29:00Z",
       "ultimo_run": null
     },
     {
@@ -787,8 +787,8 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-11-05T22:24:53Z",
-        "evento": "push"
+        "fecha": "2026-11-06T15:14:15Z",
+        "evento": "schedule"
       }
     },
     {
@@ -916,12 +916,12 @@
     "horas_365d": 1114.6,
     "pct_objetivo": 27.9,
     "faltan_h": 2885.4,
-    "horas_28d": 54.9,
-    "horas_7d": 5.5,
-    "ritmo_anual_h": 715,
-    "veces_hasta_objetivo": 5.6,
+    "horas_28d": 53.8,
+    "horas_7d": 3.8,
+    "ritmo_anual_h": 702,
+    "veces_hasta_objetivo": 5.7,
     "horas_mes_necesarias": 333,
-    "seg_por_vista_28d": 65,
+    "seg_por_vista_28d": 64,
     "meses": [
       {
         "mes": "2026-01",
@@ -970,7 +970,7 @@
       },
       {
         "mes": "2026-10",
-        "vistas": 3180,
+        "vistas": 3178,
         "horas": 58.9
       },
       {
@@ -1014,8 +1014,8 @@
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1068,
-        "horas": 33.4,
+        "vistas": 1062,
+        "horas": 33.2,
         "seg_por_vista": 119
       },
       {
@@ -1032,9 +1032,9 @@
       },
       {
         "nombre": "Página del canal",
-        "vistas": 144,
+        "vistas": 142,
         "horas": 2.5,
-        "seg_por_vista": 65
+        "seg_por_vista": 66
       },
       {
         "nombre": "Suscriptores",
@@ -1182,24 +1182,17 @@
     "nota": "Horas reales de YouTube Analytics. Ojo: el total de 12 meses es una ventana móvil, así que los meses buenos del principio del año irán saliendo de la cuenta."
   },
   "proximo_estreno": {
-    "animal": "Gatitos",
+    "animal": "Cerditos",
     "estado": "programado",
-    "duracion_min": 9,
+    "duracion_min": 3,
     "semana": "Sem44",
-    "estreno_utc": "2026-11-06T00:00:00Z"
+    "estreno_utc": "2026-11-13T00:00:00Z"
   },
   "animal_que_toca": {
     "animal": "Ardillas",
     "ultimo_estreno": "2026-10-08"
   },
   "calendario": [
-    {
-      "animal": "Gatitos",
-      "estado": "programado",
-      "duracion_min": 9,
-      "semana": "Sem44",
-      "estreno_utc": "2026-11-06T00:00:00Z"
-    },
     {
       "animal": "Cerditos",
       "estado": "programado",
@@ -1236,6 +1229,15 @@
       "estreno_utc": null
     },
     {
+      "animal": "Gatitos",
+      "estado": "publicado",
+      "duracion_min": 9,
+      "semana": "Sem44",
+      "estreno_utc": "2026-11-06T00:00:09Z",
+      "video_id": "oUSkHHy5Ch8",
+      "url": "https://www.youtube.com/watch?v=oUSkHHy5Ch8"
+    },
+    {
       "animal": "Buhos",
       "estado": "publicado",
       "duracion_min": 10,
@@ -1246,45 +1248,12 @@
     }
   ],
   "ultimo_video": {
-    "video_id": "OtJUqYl74ME",
-    "titulo": "🦉 Búhos Durmiendo en su Nido (10 min) 😴 | Música para Dormir Bebés",
-    "publicado": "2026-10-27T00:00:32Z",
-    "url": "https://www.youtube.com/watch?v=OtJUqYl74ME",
-    "visitas_totales": 749,
-    "visitas_diarias": [
-      {
-        "dia": "2026-10-27",
-        "vistas": 655
-      },
-      {
-        "dia": "2026-10-28",
-        "vistas": 36
-      },
-      {
-        "dia": "2026-10-29",
-        "vistas": 36
-      },
-      {
-        "dia": "2026-10-30",
-        "vistas": 13
-      },
-      {
-        "dia": "2026-10-31",
-        "vistas": 2
-      },
-      {
-        "dia": "2026-11-01",
-        "vistas": 2
-      },
-      {
-        "dia": "2026-11-02",
-        "vistas": 0
-      },
-      {
-        "dia": "2026-11-03",
-        "vistas": 0
-      }
-    ],
+    "video_id": "oUSkHHy5Ch8",
+    "titulo": "🐱 Gatitos Durmiendo (9 min) 😴 | Música para Dormir Bebés",
+    "publicado": "2026-11-06T00:00:09Z",
+    "url": "https://www.youtube.com/watch?v=oUSkHHy5Ch8",
+    "visitas_totales": 74,
+    "visitas_diarias": [],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
   "avisos": [
