@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-11-06T17:46:41Z",
+  "actualizado_utc": "2026-11-07T14:16:10Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "jueves",
@@ -35,14 +35,14 @@
     {
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
-      "valor": "1.114,6 de 4.000 h (27,9 %)",
-      "detalle": "Últimas 4 semanas: 53,8 h. Hacen falta unas 333 h al mes.",
+      "valor": "1.114,8 de 4.000 h (27,9 %)",
+      "detalle": "Últimas 4 semanas: 46,1 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
       "id": "seg_por_vista",
       "titulo": "Segundos vistos por visita (4 semanas)",
-      "valor": "64 s",
+      "valor": "71 s",
       "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 34 s.",
       "estado": "atencion"
     },
@@ -56,8 +56,8 @@
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
-      "valor": "Gatitos mañana (8/11)",
-      "detalle": "5 estreno(s) programado(s) hasta el 16/11 (9 días de colchón).",
+      "valor": "Gatitos en 9 h (8/11)",
+      "detalle": "5 estreno(s) programado(s) hasta el 16/11 (8 días de colchón).",
       "estado": "atencion"
     },
     {
@@ -728,12 +728,12 @@
       ],
       "salidas": "Reels en Instagram y data/instagram_log.csv",
       "gasta_creditos": false,
-      "estado": "ok",
-      "detalle": "Último run correcto.",
+      "estado": "alerta",
+      "detalle": "El último run falló.",
       "ultima_actividad": "2026-10-26T20:19:25Z",
       "ultimo_run": {
-        "estado": "success",
-        "fecha": "2026-11-05T21:21:19Z",
+        "estado": "failure",
+        "fecha": "2026-11-06T20:42:36Z",
         "evento": "schedule"
       }
     },
@@ -810,8 +810,8 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-11-06T17:46:06Z",
-        "evento": "push"
+        "fecha": "2026-11-07T14:15:39Z",
+        "evento": "schedule"
       }
     },
     {
@@ -932,19 +932,20 @@
     "pausado": 1,
     "en_espera": 3,
     "bajo_demanda": 4,
-    "ok": 7
+    "alerta": 1,
+    "ok": 6
   },
   "horas": {
     "objetivo_h": 4000,
-    "horas_365d": 1114.6,
+    "horas_365d": 1114.8,
     "pct_objetivo": 27.9,
-    "faltan_h": 2885.4,
-    "horas_28d": 53.8,
-    "horas_7d": 3.8,
-    "ritmo_anual_h": 702,
-    "veces_hasta_objetivo": 5.7,
+    "faltan_h": 2885.2,
+    "horas_28d": 46.1,
+    "horas_7d": 2.6,
+    "ritmo_anual_h": 601,
+    "veces_hasta_objetivo": 6.7,
     "horas_mes_necesarias": 333,
-    "seg_por_vista_28d": 64,
+    "seg_por_vista_28d": 71,
     "meses": [
       {
         "mes": "2026-01",
@@ -993,20 +994,20 @@
       },
       {
         "mes": "2026-10",
-        "vistas": 3178,
+        "vistas": 3180,
         "horas": 58.9
       },
       {
         "mes": "2026-11",
-        "vistas": 43,
-        "horas": 1.6
+        "vistas": 52,
+        "horas": 1.8
       }
     ],
     "por_formato": [
       {
         "formato": "hasta 5 min",
         "videos": 37,
-        "vistas": 51612,
+        "vistas": 51620,
         "horas": 482.6,
         "seg_por_vista": 34,
         "horas_por_video": 13.0
@@ -1014,8 +1015,8 @@
       {
         "formato": "de 6 a 15 min",
         "videos": 7,
-        "vistas": 48187,
-        "horas": 237.4,
+        "vistas": 48188,
+        "horas": 237.6,
         "seg_por_vista": 18,
         "horas_por_video": 33.9
       },
@@ -1037,15 +1038,15 @@
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1062,
-        "horas": 33.2,
+        "vistas": 1068,
+        "horas": 33.4,
         "seg_por_vista": 119
       },
       {
         "nombre": "Listas de reproducción",
-        "vistas": 208,
-        "horas": 18.1,
-        "seg_por_vista": 318
+        "vistas": 206,
+        "horas": 17.8,
+        "seg_por_vista": 317
       },
       {
         "nombre": "Otras páginas de YouTube",
@@ -1087,7 +1088,7 @@
     "por_dispositivo_365d": [
       {
         "nombre": "Móvil",
-        "vistas": 71995,
+        "vistas": 72002,
         "horas": 875.6,
         "seg_por_vista": 48
       },
@@ -1099,9 +1100,9 @@
       },
       {
         "nombre": "Ordenador",
-        "vistas": 1293,
-        "horas": 24.3,
-        "seg_por_vista": 110
+        "vistas": 1295,
+        "horas": 24.5,
+        "seg_por_vista": 111
       },
       {
         "nombre": "Tableta",
@@ -1133,9 +1134,9 @@
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal (10 min) 😴 | Ruido Blanco y Música Relajante para Bebés",
         "publicado": "2026-02-05",
         "duracion_s": 585,
-        "vistas": 46058,
-        "minutos": 10187,
-        "horas": 169.8,
+        "vistas": 46059,
+        "minutos": 10196,
+        "horas": 169.9,
         "seg_por_vista": 53
       },
       {
@@ -1151,10 +1152,10 @@
         "titulo": "🐰 Conejitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-05",
         "duracion_s": 229,
-        "vistas": 2691,
-        "minutos": 2452,
-        "horas": 40.9,
-        "seg_por_vista": 60
+        "vistas": 2693,
+        "minutos": 2457,
+        "horas": 41.0,
+        "seg_por_vista": 61
       },
       {
         "titulo": "🐨 Koalas Familia ❤️ ESPECIAL SAN VALENTÍN 4MIN 😴 | Mi Mundo Animalito",
@@ -1275,7 +1276,7 @@
     "titulo": "🐱 Gatitos Durmiendo (9 min) 😴 | Música para Dormir Bebés",
     "publicado": "2026-11-06T00:00:09Z",
     "url": "https://www.youtube.com/watch?v=oUSkHHy5Ch8",
-    "visitas_totales": 155,
+    "visitas_totales": 229,
     "visitas_diarias": [],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
