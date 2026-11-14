@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-11-13T21:15:11Z",
+  "actualizado_utc": "2026-11-14T14:23:03Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "viernes",
@@ -36,13 +36,13 @@
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
       "valor": "1.129,7 de 4.000 h (28,2 %)",
-      "detalle": "Últimas 4 semanas: 43,0 h. Hacen falta unas 333 h al mes.",
+      "detalle": "Últimas 4 semanas: 42,1 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
       "id": "seg_por_vista",
       "titulo": "Segundos vistos por visita (4 semanas)",
-      "valor": "86 s",
+      "valor": "87 s",
       "detalle": "Los de más de 15 min dan 78 s por visita y los de hasta 5 min 34 s.",
       "estado": "atencion"
     },
@@ -56,8 +56,8 @@
     {
       "id": "estrenos",
       "titulo": "Próximo estreno y colchón",
-      "valor": "Patitos en 2 h (14/11)",
-      "detalle": "2 estreno(s) programado(s) hasta el 16/11 (2 días de colchón).",
+      "valor": "Gatitos mañana (16/11)",
+      "detalle": "1 estreno(s) programado(s) hasta el 16/11 (1 días de colchón).",
       "estado": "alerta"
     },
     {
@@ -910,8 +910,8 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-11-13T21:14:36Z",
-        "evento": "push"
+        "fecha": "2026-11-14T14:22:32Z",
+        "evento": "schedule"
       }
     },
     {
@@ -1040,12 +1040,12 @@
     "horas_365d": 1129.7,
     "pct_objetivo": 28.2,
     "faltan_h": 2870.3,
-    "horas_28d": 43.0,
-    "horas_7d": 14.2,
-    "ritmo_anual_h": 561,
-    "veces_hasta_objetivo": 7.1,
+    "horas_28d": 42.1,
+    "horas_7d": 9.2,
+    "ritmo_anual_h": 549,
+    "veces_hasta_objetivo": 7.3,
     "horas_mes_necesarias": 333,
-    "seg_por_vista_28d": 86,
+    "seg_por_vista_28d": 87,
     "meses": [
       {
         "mes": "2026-01",
@@ -1122,73 +1122,67 @@
       },
       {
         "formato": "más de 15 min",
-        "videos": 7,
-        "vistas": 18204,
-        "horas": 394.8,
+        "videos": 6,
+        "vistas": 18202,
+        "horas": 392.9,
         "seg_por_vista": 78,
-        "horas_por_video": 56.4
+        "horas_por_video": 65.5
       }
     ],
     "por_fuente_90d": [
       {
         "nombre": "Recomendados",
-        "vistas": 6448,
-        "horas": 80.2,
+        "vistas": 6381,
+        "horas": 79.4,
         "seg_por_vista": 44
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1097,
-        "horas": 36.3,
+        "vistas": 1091,
+        "horas": 36.2,
         "seg_por_vista": 126
       },
       {
         "nombre": "Listas de reproducción",
-        "vistas": 206,
-        "horas": 17.1,
-        "seg_por_vista": 306
+        "vistas": 204,
+        "horas": 16.9,
+        "seg_por_vista": 305
       },
       {
         "nombre": "Otras páginas de YouTube",
-        "vistas": 241,
-        "horas": 4.7,
+        "vistas": 238,
+        "horas": 4.6,
         "seg_por_vista": 70
       },
       {
         "nombre": "Suscriptores",
-        "vistas": 300,
+        "vistas": 299,
         "horas": 2.7,
         "seg_por_vista": 32
       },
       {
         "nombre": "Página del canal",
-        "vistas": 156,
+        "vistas": 155,
         "horas": 2.5,
         "seg_por_vista": 63
       },
       {
         "nombre": "Sin enlace",
-        "vistas": 95,
+        "vistas": 94,
         "horas": 1.5,
         "seg_por_vista": 56
       },
       {
         "nombre": "Enlaces externos",
-        "vistas": 53,
+        "vistas": 52,
         "horas": 1.1,
-        "seg_por_vista": 78
+        "seg_por_vista": 80
       },
       {
         "nombre": "Shorts",
-        "vistas": 63,
+        "vistas": 61,
         "horas": 0.1,
         "seg_por_vista": 16
-      },
-      {
-        "nombre": "Notificaciones",
-        "vistas": 20,
-        "horas": 0.1,
-        "seg_por_vista": 23
       }
     ],
     "por_dispositivo_365d": [
@@ -1312,11 +1306,11 @@
     "nota": "Horas reales de YouTube Analytics. Ojo: el total de 12 meses es una ventana móvil, así que los meses buenos del principio del año irán saliendo de la cuenta."
   },
   "proximo_estreno": {
-    "animal": "Patitos",
+    "animal": "Gatitos",
     "estado": "programado",
-    "duracion_min": 3,
-    "semana": "Sem45",
-    "estreno_utc": "2026-11-14T00:00:00Z"
+    "duracion_min": 4,
+    "semana": "Sem46",
+    "estreno_utc": "2026-11-16T00:00:00Z"
   },
   "animal_que_toca": {
     "animal": "Ardillas",
@@ -1324,18 +1318,20 @@
   },
   "calendario": [
     {
-      "animal": "Patitos",
-      "estado": "programado",
-      "duracion_min": 3,
-      "semana": "Sem45",
-      "estreno_utc": "2026-11-14T00:00:00Z"
-    },
-    {
       "animal": "Gatitos",
       "estado": "programado",
       "duracion_min": 4,
       "semana": "Sem46",
       "estreno_utc": "2026-11-16T00:00:00Z"
+    },
+    {
+      "animal": "Patitos",
+      "estado": "publicado",
+      "duracion_min": 3,
+      "semana": "Sem45",
+      "estreno_utc": "2026-11-14T00:00:17Z",
+      "video_id": "Kp8gY5Q6AK8",
+      "url": "https://www.youtube.com/watch?v=Kp8gY5Q6AK8"
     },
     {
       "animal": "Gatitos",
@@ -1384,11 +1380,11 @@
     }
   ],
   "ultimo_video": {
-    "video_id": "uMeuv3mwTtk",
-    "titulo": "🌙 Música para Dormir Bebés Profundamente 😴 Pantalla Oscura | Canción de Cuna (2 horas)",
-    "publicado": "2026-11-13T00:00:05Z",
-    "url": "https://www.youtube.com/watch?v=uMeuv3mwTtk",
-    "visitas_totales": 417,
+    "video_id": "Kp8gY5Q6AK8",
+    "titulo": "🦆 Patitos Durmiendo 😴 | Música para Dormir Bebés y Canciones de Cuna",
+    "publicado": "2026-11-14T00:00:17Z",
+    "url": "https://www.youtube.com/watch?v=Kp8gY5Q6AK8",
+    "visitas_totales": 1,
     "visitas_diarias": [],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
   },
