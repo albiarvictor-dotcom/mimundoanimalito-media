@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-11-19T16:41:25Z",
+  "actualizado_utc": "2026-11-20T16:16:45Z",
   "datos_youtube": true,
   "franja_estreno": {
     "dia": "viernes",
@@ -35,22 +35,22 @@
     {
       "id": "horas",
       "titulo": "Horas de visualización (12 meses)",
-      "valor": "1.200,7 de 4.000 h (30,0 %)",
-      "detalle": "Últimas 4 semanas: 108,4 h. Hacen falta unas 333 h al mes.",
+      "valor": "1.205,3 de 4.000 h (30,1 %)",
+      "detalle": "Últimas 4 semanas: 112,7 h. Hacen falta unas 333 h al mes.",
       "estado": "atencion"
     },
     {
       "id": "seg_por_vista",
       "titulo": "Segundos vistos por visita (4 semanas)",
-      "valor": "155 s",
-      "detalle": "Los de más de 15 min dan 87 s por visita y los de hasta 5 min 34 s.",
+      "valor": "157 s",
+      "detalle": "Los de más de 15 min dan 88 s por visita y los de hasta 5 min 34 s.",
       "estado": "atencion"
     },
     {
       "id": "plan_retencion",
       "titulo": "Retención a 20 s (plan de retención)",
-      "valor": "71,2 % · meta 58 % · base 50,8 %",
-      "detalle": "A 10 s: 90,3 %. A 60 s: 52,3 % (meta 28 %). 3 vídeos medidos el 2026-11-18; recomendados 92 % de las vistas (-0,2 pp frente a la medición anterior).",
+      "valor": "71,0 % · meta 58 % · base 50,8 %",
+      "detalle": "A 10 s: 89,9 %. A 60 s: 52,0 % (meta 28 %). 3 vídeos medidos el 2026-11-19; recomendados 92 % de las vistas (-0,2 pp frente a la medición anterior).",
       "estado": "ok"
     },
     {
@@ -70,15 +70,15 @@
     {
       "id": "actividad",
       "titulo": "Actividad de los agentes",
-      "valor": "12 tarea(s) en 7 días",
-      "detalle": "Última: Medición diaria de retención (2026-11-18): 3 vídeos medidos el 2026-11-18: retención media 90.3 % a 10 s, 71.2 % a 20 s y 52.3 % a 60 s (meta del plan: 58 % y 28 %).",
+      "valor": "10 tarea(s) en 7 días",
+      "detalle": "Última: Medición diaria de retención (2026-11-19): 3 vídeos medidos el 2026-11-19: retención media 89.9 % a 10 s, 71.0 % a 20 s y 52.0 % a 60 s (meta del plan: 58 % y 28 %).",
       "estado": "ok"
     },
     {
       "id": "competencia",
       "titulo": "Pulso de la competencia",
       "valor": null,
-      "detalle": "8 de 12 canales de referencia subieron algún vídeo en los últimos 7 días; 6 subieron dos o más (nosotros: uno por semana). El canal con más ritmo es Soy Morita: 18 vídeos en 30 días, de unos 2.6 min.",
+      "detalle": "7 de 12 canales de referencia subieron algún vídeo en los últimos 7 días; 6 subieron dos o más (nosotros: uno por semana). El canal con más ritmo es Soy Morita: 17 vídeos en 30 días, de unos 2.6 min.",
       "estado": "ok"
     },
     {
@@ -543,76 +543,86 @@
       "seg_por_visita": 118.0,
       "pct_recomendados": 92.2,
       "pct_busqueda_y_listas": 2.0
+    },
+    {
+      "fecha": "2026-11-19",
+      "videos": 3,
+      "ret_10s": 89.9,
+      "ret_20s": 71.0,
+      "ret_60s": 52.0,
+      "seg_por_visita": 133.3,
+      "pct_recomendados": 91.9,
+      "pct_busqueda_y_listas": 2.0
     }
   ],
   "competencia": {
-    "actualizado_utc": "2026-11-16T18:13:35Z",
+    "actualizado_utc": "2026-11-19T17:14:06Z",
     "observaciones": [
-      "8 de 12 canales de referencia subieron algún vídeo en los últimos 7 días; 6 subieron dos o más (nosotros: uno por semana).",
-      "El canal con más ritmo es Soy Morita: 18 vídeos en 30 días, de unos 2.6 min.",
-      "Duración típica de lo que suben los canales activos: mediana de 23.6 min (los nuestros: 3-4 min los cortos y 9-10 min los largos).",
-      "Lo que mejor va en 14 días: «Hush Little Baby | Magical Nursery Lullaby» de Kidz Wonder TV Show. 48.899 vistas (288.1 por hora. 3.6 min)."
+      "7 de 12 canales de referencia subieron algún vídeo en los últimos 7 días; 6 subieron dos o más (nosotros: uno por semana).",
+      "El canal con más ritmo es Soy Morita: 17 vídeos en 30 días, de unos 2.6 min.",
+      "Duración típica de lo que suben los canales activos: mediana de 20.8 min (los nuestros: 3-4 min los cortos y 9-10 min los largos).",
+      "Lo que mejor va en 14 días: «Hush Little Baby | Magical Nursery Lullaby» de Kidz Wonder TV Show. 103.956 vistas (431.8 por hora. 3.6 min)."
     ],
     "novedades": [
       {
         "canal": "Kidz Wonder TV Show",
         "titulo": "Hush Little Baby | Magical Nursery Lullaby",
         "publicado": "2026-11-09",
-        "vistas": 48899,
-        "vph": 288.1,
+        "vistas": 103956,
+        "vph": 431.8,
         "duracion_min": 3.6,
-        "x_mediana": 0.3,
+        "x_mediana": 0.5,
         "url": "https://www.youtube.com/watch?v=WRcVXUEhoVI"
       },
       {
         "canal": "Mother & Baby Sounds",
         "titulo": "Relaxing Baby Sleep Music to Fall Asleep in 3 Minutes 🌙 Lullaby + Water Sounds + Shhh | Dark Screen",
         "publicado": "2026-11-10",
-        "vistas": 25310,
-        "vph": 170.3,
+        "vistas": 43311,
+        "vph": 197.2,
         "duracion_min": 152.6,
-        "x_mediana": 0.8,
+        "x_mediana": 1.7,
         "url": "https://www.youtube.com/watch?v=hcKe9HkDNoY"
-      },
-      {
-        "canal": "Mother & Baby Sounds",
-        "titulo": "THE MOST RELAXING BABY SLEEP MUSIC 😴 Works every time 💤 Celtic Lullaby + Water Sounds | Dark Screen",
-        "publicado": "2026-11-15",
-        "vistas": 2531,
-        "vph": 86.6,
-        "duracion_min": 151.4,
-        "x_mediana": 0.1,
-        "url": "https://www.youtube.com/watch?v=2F968f8BGkQ"
-      },
-      {
-        "canal": "Mother & Baby Sounds",
-        "titulo": "INSTANT SLEEP IN 3 MINUTES! 💤 Womb Sounds & Heartbeat + Gentle Lullaby | Dark Screen",
-        "publicado": "2026-11-05",
-        "vistas": 14504,
-        "vph": 54.0,
-        "duracion_min": 97.2,
-        "x_mediana": 0.5,
-        "url": "https://www.youtube.com/watch?v=Aupt9mdj1QE"
-      },
-      {
-        "canal": "Soy Morita",
-        "titulo": "El amor de Navidad | VIDEO OFICIAL",
-        "publicado": "2026-11-09",
-        "vistas": 8417,
-        "vph": 48.6,
-        "duracion_min": 2.8,
-        "x_mediana": 40.1,
-        "url": "https://www.youtube.com/watch?v=94vQCFtz8hg"
       },
       {
         "canal": "Polli Kidz",
         "titulo": "Video sensorial lento para bebés (0–3 meses) 🌙 Luna y estrellas en blanco y negro",
         "publicado": "2026-11-14",
-        "vistas": 1949,
-        "vph": 39.0,
+        "vistas": 14331,
+        "vph": 118.4,
         "duracion_min": 32.6,
-        "x_mediana": 2.3,
+        "x_mediana": 16.4,
         "url": "https://www.youtube.com/watch?v=-0UrwKEInbc"
+      },
+      {
+        "canal": "Mother & Baby Sounds",
+        "titulo": "Extra Relaxing Twinkle Twinkle Lullaby ✨ Baby Sleep Music To Fall Asleep In 3 Minutes | Dark Screen",
+        "publicado": "2026-11-17",
+        "vistas": 4023,
+        "vph": 76.9,
+        "duracion_min": 152.1,
+        "x_mediana": 0.2,
+        "url": "https://www.youtube.com/watch?v=O57GcH_6Yx0"
+      },
+      {
+        "canal": "Soy Morita",
+        "titulo": "El amor de Navidad | VIDEO OFICIAL",
+        "publicado": "2026-11-09",
+        "vistas": 13070,
+        "vph": 53.5,
+        "duracion_min": 2.8,
+        "x_mediana": 48.8,
+        "url": "https://www.youtube.com/watch?v=94vQCFtz8hg"
+      },
+      {
+        "canal": "Mother & Baby Sounds",
+        "titulo": "THE MOST RELAXING BABY SLEEP MUSIC 😴 Works every time 💤 Celtic Lullaby + Water Sounds | Dark Screen",
+        "publicado": "2026-11-15",
+        "vistas": 5232,
+        "vph": 52.2,
+        "duracion_min": 151.4,
+        "x_mediana": 0.2,
+        "url": "https://www.youtube.com/watch?v=2F968f8BGkQ"
       }
     ],
     "canales": [
@@ -621,88 +631,100 @@
         "subidas_7d": 0,
         "subidas_30d": 4,
         "duracion_tipica_min": 3.9,
-        "mediana_vistas": 177881
+        "mediana_vistas": 208887
       },
       {
         "nombre": "VickyLand",
         "subidas_7d": 2,
-        "subidas_30d": 6,
-        "duracion_tipica_min": 3.1,
-        "mediana_vistas": 10404
+        "subidas_30d": 7,
+        "duracion_tipica_min": 3.2,
+        "mediana_vistas": 11194
       },
       {
         "nombre": "Mother & Baby Sounds",
         "subidas_7d": 3,
-        "subidas_30d": 12,
-        "duracion_tipica_min": 152.8,
-        "mediana_vistas": 29967
+        "subidas_30d": 13,
+        "duracion_tipica_min": 152.6,
+        "mediana_vistas": 26116
       },
       {
         "nombre": "Sweet Baby Dreams",
-        "subidas_7d": 1,
-        "subidas_30d": 7,
+        "subidas_7d": 0,
+        "subidas_30d": 6,
         "duracion_tipica_min": 120.0,
-        "mediana_vistas": 8618
+        "mediana_vistas": 9487
       },
       {
         "nombre": "Little Baby Bum - Lullabies",
         "subidas_7d": 1,
         "subidas_30d": 4,
         "duracion_tipica_min": 118.7,
-        "mediana_vistas": 7109
+        "mediana_vistas": 7239
       },
       {
         "nombre": "Sueños de Luna",
         "subidas_7d": 0,
         "subidas_30d": 0,
         "duracion_tipica_min": null,
-        "mediana_vistas": 15425
+        "mediana_vistas": 15814
       },
       {
         "nombre": "Música de cuna para tus bebés",
         "subidas_7d": 0,
         "subidas_30d": 0,
         "duracion_tipica_min": null,
-        "mediana_vistas": 734
+        "mediana_vistas": 744
       },
       {
         "nombre": "LunadeBebe",
         "subidas_7d": 3,
-        "subidas_30d": 10,
-        "duracion_tipica_min": 74.0,
-        "mediana_vistas": 690
+        "subidas_30d": 9,
+        "duracion_tipica_min": 71.0,
+        "mediana_vistas": 492
       },
       {
         "nombre": "Soy Morita",
         "subidas_7d": 2,
-        "subidas_30d": 18,
+        "subidas_30d": 17,
         "duracion_tipica_min": 2.6,
-        "mediana_vistas": 210
+        "mediana_vistas": 268
       },
       {
         "nombre": "Polli Kidz",
         "subidas_7d": 3,
         "subidas_30d": 9,
-        "duracion_tipica_min": 23.6,
-        "mediana_vistas": 865
+        "duracion_tipica_min": 20.8,
+        "mediana_vistas": 876
       },
       {
         "nombre": "Canta Sori",
         "subidas_7d": 2,
         "subidas_30d": 10,
-        "duracion_tipica_min": 2.7,
-        "mediana_vistas": 56
+        "duracion_tipica_min": 3.0,
+        "mediana_vistas": 58
       },
       {
         "nombre": "Boobalin Español",
         "subidas_7d": 0,
         "subidas_30d": 0,
         "duracion_tipica_min": null,
-        "mediana_vistas": 19590
+        "mediana_vistas": 19771
       }
     ]
   },
   "actividad_agentes": [
+    {
+      "fecha_utc": "2026-11-19T17:14:20Z",
+      "agente": "Medición diaria de retención",
+      "resultado": "ok",
+      "resumen": "3 vídeos medidos el 2026-11-19: retención media 89.9 % a 10 s, 71.0 % a 20 s y 52.0 % a 60 s (meta del plan: 58 % y 28 %)."
+    },
+    {
+      "fecha_utc": "2026-11-19T17:14:13Z",
+      "agente": "Pulso de la competencia",
+      "resultado": "ok",
+      "resumen": "12 canales vigilados. 7 de 12 canales de referencia subieron algún vídeo en los últimos 7 días; 6 subieron dos o más (nosotros: uno por semana)."
+    },
     {
       "fecha_utc": "2026-11-18T17:06:48Z",
       "agente": "Medición diaria de retención",
@@ -780,18 +802,6 @@
       "agente": "Medición diaria de retención",
       "resultado": "ok",
       "resumen": "5 vídeos medidos el 2026-11-11: retención media 75.7 % a 10 s, 52.3 % a 20 s y 23.2 % a 60 s (meta del plan: 58 % y 28 %)."
-    },
-    {
-      "fecha_utc": "2026-11-11T15:59:51Z",
-      "agente": "Propuesta de mejoras",
-      "resultado": "ok",
-      "resumen": "Propuesta nueva: propuesta_mejoras_2026-11-11.md."
-    },
-    {
-      "fecha_utc": "2026-11-10T16:20:13Z",
-      "agente": "Medición diaria de retención",
-      "resultado": "ok",
-      "resumen": "5 vídeos medidos el 2026-11-10: retención media 75.6 % a 10 s, 52.0 % a 20 s y 22.9 % a 60 s (meta del plan: 58 % y 28 %)."
     }
   ],
   "agentes": [
@@ -883,7 +893,7 @@
       "ultima_actividad": "2026-10-26T20:19:25Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-18T22:29:22Z",
+        "fecha": "2026-11-19T22:35:01Z",
         "evento": "schedule"
       }
     },
@@ -960,7 +970,7 @@
       "ultima_actividad": null,
       "ultimo_run": {
         "estado": "in_progress",
-        "fecha": "2026-11-19T16:40:49Z",
+        "fecha": "2026-11-20T16:16:13Z",
         "evento": "schedule"
       }
     },
@@ -1028,10 +1038,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-18T17:06:48Z",
+      "ultima_actividad": "2026-11-19T17:14:20Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-18T17:06:56Z",
+        "fecha": "2026-11-19T17:14:25Z",
         "evento": "schedule"
       }
     },
@@ -1049,10 +1059,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-18T17:06:48Z",
+      "ultima_actividad": "2026-11-19T17:14:20Z",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-18T17:06:56Z",
+        "fecha": "2026-11-19T17:14:25Z",
         "evento": "schedule"
       }
     },
@@ -1070,10 +1080,10 @@
       "gasta_creditos": false,
       "estado": "ok",
       "detalle": "Último run correcto.",
-      "ultima_actividad": "2026-11-18",
+      "ultima_actividad": "2026-11-19",
       "ultimo_run": {
         "estado": "success",
-        "fecha": "2026-11-18T17:06:56Z",
+        "fecha": "2026-11-19T17:14:25Z",
         "evento": "schedule"
       }
     }
@@ -1086,15 +1096,15 @@
   },
   "horas": {
     "objetivo_h": 4000,
-    "horas_365d": 1200.7,
-    "pct_objetivo": 30.0,
-    "faltan_h": 2799.3,
-    "horas_28d": 108.4,
-    "horas_7d": 71.1,
-    "ritmo_anual_h": 1413,
-    "veces_hasta_objetivo": 2.8,
+    "horas_365d": 1205.3,
+    "pct_objetivo": 30.1,
+    "faltan_h": 2794.7,
+    "horas_28d": 112.7,
+    "horas_7d": 73.5,
+    "ritmo_anual_h": 1469,
+    "veces_hasta_objetivo": 2.7,
     "horas_mes_necesarias": 333,
-    "seg_por_vista_28d": 155,
+    "seg_por_vista_28d": 157,
     "meses": [
       {
         "mes": "2026-01",
@@ -1148,115 +1158,115 @@
       },
       {
         "mes": "2026-11",
-        "vistas": 1621,
-        "horas": 87.6
+        "vistas": 1703,
+        "horas": 92.2
       }
     ],
     "por_formato": [
       {
         "formato": "hasta 5 min",
-        "videos": 34,
-        "vistas": 51503,
-        "horas": 486.2,
+        "videos": 35,
+        "vistas": 51537,
+        "horas": 486.7,
         "seg_por_vista": 34,
-        "horas_por_video": 14.3
+        "horas_por_video": 13.9
       },
       {
         "formato": "de 6 a 15 min",
-        "videos": 8,
-        "vistas": 48702,
-        "horas": 249.6,
+        "videos": 7,
+        "vistas": 48704,
+        "horas": 250.0,
         "seg_por_vista": 18,
-        "horas_por_video": 31.2
+        "horas_por_video": 35.7
       },
       {
         "formato": "más de 15 min",
         "videos": 7,
-        "vistas": 19026,
-        "horas": 460.4,
-        "seg_por_vista": 87,
-        "horas_por_video": 65.8
+        "vistas": 19068,
+        "horas": 464.0,
+        "seg_por_vista": 88,
+        "horas_por_video": 66.3
       }
     ],
     "por_fuente_90d": [
       {
         "nombre": "Recomendados",
-        "vistas": 7096,
-        "horas": 137.1,
-        "seg_por_vista": 66
+        "vistas": 7129,
+        "horas": 140.3,
+        "seg_por_vista": 68
       },
       {
         "nombre": "Búsqueda de YouTube",
-        "vistas": 1109,
-        "horas": 38.4,
+        "vistas": 1125,
+        "horas": 38.7,
         "seg_por_vista": 132
       },
       {
         "nombre": "Listas de reproducción",
-        "vistas": 214,
+        "vistas": 216,
         "horas": 16.7,
-        "seg_por_vista": 289
+        "seg_por_vista": 288
       },
       {
         "nombre": "Otras páginas de YouTube",
-        "vistas": 256,
-        "horas": 8.2,
-        "seg_por_vista": 112
+        "vistas": 257,
+        "horas": 8.4,
+        "seg_por_vista": 114
       },
       {
         "nombre": "Suscriptores",
-        "vistas": 329,
+        "vistas": 332,
         "horas": 7.2,
         "seg_por_vista": 58
       },
       {
         "nombre": "Página del canal",
-        "vistas": 155,
-        "horas": 2.5,
+        "vistas": 156,
+        "horas": 2.6,
         "seg_por_vista": 64
       },
       {
         "nombre": "Sin enlace",
-        "vistas": 104,
-        "horas": 1.7,
-        "seg_por_vista": 59
+        "vistas": 110,
+        "horas": 1.8,
+        "seg_por_vista": 57
       },
       {
         "nombre": "Enlaces externos",
-        "vistas": 55,
+        "vistas": 59,
         "horas": 1.4,
-        "seg_por_vista": 91
+        "seg_por_vista": 86
       },
       {
         "nombre": "Shorts",
-        "vistas": 62,
+        "vistas": 58,
         "horas": 0.1,
-        "seg_por_vista": 16
+        "seg_por_vista": 15
       }
     ],
     "por_dispositivo_365d": [
       {
         "nombre": "Móvil",
-        "vistas": 72775,
-        "horas": 896.2,
+        "vistas": 72812,
+        "horas": 897.5,
         "seg_por_vista": 49
       },
       {
         "nombre": "Televisión",
-        "vistas": 43252,
-        "horas": 230.6,
-        "seg_por_vista": 103
+        "vistas": 43293,
+        "horas": 233.5,
+        "seg_por_vista": 104
       },
       {
         "nombre": "Tableta",
-        "vistas": 2538,
-        "horas": 44.6,
+        "vistas": 2542,
+        "horas": 44.9,
         "seg_por_vista": 84
       },
       {
         "nombre": "Ordenador",
-        "vistas": 1393,
-        "horas": 28.7,
+        "vistas": 1394,
+        "horas": 28.8,
         "seg_por_vista": 116
       }
     ],
@@ -1265,35 +1275,35 @@
         "titulo": "🐻 Ositos Durmiendo 😴 | Canción Relajante para Dormir Bebés - Ruido Blanco | Mi Mundo Animalito",
         "publicado": "2026-03-16",
         "duracion_s": 1216,
-        "vistas": 17417,
-        "minutos": 22175,
-        "horas": 369.6,
+        "vistas": 17418,
+        "minutos": 22189,
+        "horas": 369.8,
         "seg_por_vista": 76
       },
       {
         "titulo": "🐱 Gatitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-09",
         "duracion_s": 246,
-        "vistas": 23330,
-        "minutos": 14017,
-        "horas": 233.6,
+        "vistas": 23331,
+        "minutos": 14021,
+        "horas": 233.7,
         "seg_por_vista": 40
       },
       {
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal (10 min) 😴 | Ruido Blanco y Música Relajante para Bebés",
         "publicado": "2026-02-05",
         "duracion_s": 585,
-        "vistas": 46071,
-        "minutos": 10255,
-        "horas": 170.9,
+        "vistas": 46078,
+        "minutos": 10280,
+        "horas": 171.3,
         "seg_por_vista": 53
       },
       {
         "titulo": "🐿️ Ardillas Durmiendo en el Bosque Otoñal 💤| Música Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-21",
         "duracion_s": 241,
-        "vistas": 7572,
-        "minutos": 4333,
+        "vistas": 7576,
+        "minutos": 4335,
         "horas": 72.2,
         "seg_por_vista": 37
       },
@@ -1301,27 +1311,27 @@
         "titulo": "🌙 Música para Dormir Bebés Profundamente 😴 Pantalla Oscura | Canción de Cuna (2 horas)",
         "publicado": "2026-11-13",
         "duracion_s": 7177,
-        "vistas": 821,
-        "minutos": 4045,
-        "horas": 67.4,
-        "seg_por_vista": 262
+        "vistas": 861,
+        "minutos": 4243,
+        "horas": 70.7,
+        "seg_por_vista": 265
       },
       {
         "titulo": "🐰 Conejitos Durmiendo 😴 | Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-01-05",
         "duracion_s": 229,
-        "vistas": 2754,
-        "minutos": 2590,
-        "horas": 43.2,
+        "vistas": 2764,
+        "minutos": 2598,
+        "horas": 43.3,
         "seg_por_vista": 62
       },
       {
         "titulo": "🐨 Koalas Familia ❤️ ESPECIAL SAN VALENTÍN 4MIN 😴 | Mi Mundo Animalito",
         "publicado": "2026-02-14",
         "duracion_s": 241,
-        "vistas": 4630,
-        "minutos": 2006,
-        "horas": 33.4,
+        "vistas": 4631,
+        "minutos": 2009,
+        "horas": 33.5,
         "seg_por_vista": 26
       },
       {
@@ -1337,10 +1347,10 @@
         "titulo": "🐱 Gatitos Durmiendo 😴 | 10 min Ruido Blanco Canción Relajante para Dormir Bebés | Mi Mundo Animalito",
         "publicado": "2026-02-25",
         "duracion_s": 613,
-        "vistas": 169,
-        "minutos": 1063,
-        "horas": 17.7,
-        "seg_por_vista": 377
+        "vistas": 170,
+        "minutos": 1073,
+        "horas": 17.9,
+        "seg_por_vista": 378
       },
       {
         "titulo": "🐨 Koalas Durmiendo 20 min 😴 | Música Relajante para Dormir Bebés | Mi Mundo Animalito 🌙",
@@ -1440,6 +1450,10 @@
       {
         "dia": "2026-11-16",
         "vistas": 82
+      },
+      {
+        "dia": "2026-11-17",
+        "vistas": 40
       }
     ],
     "nota": "YouTube Analytics va con 1-2 días de retraso: los últimos días pueden estar incompletos."
